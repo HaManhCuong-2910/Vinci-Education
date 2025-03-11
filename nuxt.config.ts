@@ -52,8 +52,8 @@ export default defineNuxtConfig({
   },
 
   modules: [
-    "@nuxtjs/seo",
     "@nuxtjs/i18n",
+    "@nuxtjs/sitemap",
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
     "@vee-validate/nuxt",
@@ -64,16 +64,8 @@ export default defineNuxtConfig({
     "nuxt-site-config",
   ],
 
-  ogImage: {
-    enabled: false,
-  },
-
-  schemaOrg: {
-    enabled: false,
-  },
-
   i18n: {
-    vueI18n: "./src/services/i18n.config.ts",
+    vueI18n: "./i18n.config.ts",
     locales: ["vi", "en"],
     defaultLocale: "vi",
     detectBrowserLanguage: false,
@@ -124,7 +116,5 @@ export default defineNuxtConfig({
       baseUrl: process.env.BASE_URL || "",
     },
   },
-
-  ssr: false,
   compatibilityDate: "2024-11-27",
 });
