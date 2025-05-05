@@ -8,12 +8,12 @@ WORKDIR /app
 COPY package.json ./
 
 # install all depencies
-RUN npm install
+RUN yarn install
 
 COPY . .
 
 # build the project
-RUN npm run build
+RUN yarn run build
 
 # run the build project with node
 CMD ["node", ".output/server/index.mjs"]
