@@ -1,5 +1,4 @@
-# use node 18 alpine image
-FROM node:18-alpine
+FROM node:20.19.0-alpine
 
 # create work directory in app folder
 WORKDIR /app
@@ -13,7 +12,7 @@ RUN yarn install
 COPY . .
 
 # build the project
-RUN yarn run build
+RUN yarn build
 
 # run the build project with node
 CMD ["node", ".output/server/index.mjs"]
