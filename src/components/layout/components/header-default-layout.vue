@@ -1,5 +1,5 @@
 <template>
-  <header>header</header>
+  <header>header default layout</header>
 </template>
 
 <script setup lang="ts"></script>
