@@ -72,6 +72,7 @@ const handleClick = () => {
   padding-bottom: 8px;
   padding-left: 16px;
   padding-right: 16px;
+  border-radius: 8px;
   height: auto;
   color: #fff;
   border: unset;

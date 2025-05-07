@@ -1,6 +1,6 @@
 <template>
   <header-default-layout />
-  <main>
+  <main class="mt-[120px]">
     <slot> </slot>
   </main>
 

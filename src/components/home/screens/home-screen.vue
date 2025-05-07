@@ -1,5 +1,7 @@
 <template>
-  <div>home body</div>
+  <div>
+    <section-intro-home />
+  </div>
 </template>
 
 <script setup lang="ts"></script>
