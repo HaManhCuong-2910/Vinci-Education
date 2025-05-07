@@ -1,6 +1,9 @@
 <template>
   <div>
     <section-intro-home />
+    <section-list-study-education />
+    <section-news />
+    <section-table-achievement />
   </div>
 </template>
 

@@ -20,8 +20,25 @@
           <br />
           hàng đầu trường Top 1
         </h2>
+        <ul class="mt-8">
+          <li class="flex space-x-2 items-center">
+            <img src="/images/icon-tick.svg" alt="tick" class="w-5" />
+            <p class="text-xl text-black-300">
+              Độc quyền phương pháp logical thinking
+            </p>
+          </li>
+          <li class="flex space-x-2 items-center mt-2">
+            <img src="/images/icon-tick.svg" alt="tick" class="w-5" />
+            <p class="text-xl text-black-300">Bintest by Phạm Văn Bình</p>
+          </li>
+        </ul>
       </div>
-      <div>dsa</div>
+      <div class="grid grid-cols-2 gap-8">
+        <img class="w-[236px]" src="/images/anh_1.png" alt="anh_1" />
+        <img class="w-[236px]" src="/images/anh_2.png" alt="anh_2" />
+        <img class="w-[236px]" src="/images/anh_3.png" alt="anh_3" />
+        <img class="w-[236px]" src="/images/anh_4.png" alt="anh_4" />
+      </div>
     </div>
   </section>
 </template>
