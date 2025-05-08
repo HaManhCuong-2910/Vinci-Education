@@ -77,22 +77,13 @@
       </defs>
     </svg>
     <div class="cert vn1">
-      <img
-        src="https://asset.dolenglish.vn/cm9mmt7b35eqd07119zr8xn6n"
-        loading="lazy"
-      />
+      <img src="https://asset.dolenglish.vn/cm9mmt7b35eqd07119zr8xn6n" />
     </div>
     <div class="cert id">
-      <img
-        src="https://asset.dolenglish.vn/cm9mmuoi95f0j071149uqia50"
-        loading="lazy"
-      />
+      <img src="https://asset.dolenglish.vn/cm9mmuoi95f0j071149uqia50" />
     </div>
     <div class="cert vn2">
-      <img
-        src="https://asset.dolenglish.vn/cm9mmser05eli0711v9ocig51"
-        loading="lazy"
-      />
+      <img src="https://asset.dolenglish.vn/cm9mmser05eli0711v9ocig51" />
     </div>
     <svg
       width="107"
@@ -175,10 +166,7 @@
       </defs>
     </svg>
     <div class="cert us">
-      <img
-        src="https://asset.dolenglish.vn/cm9mmvwtb5fe40711x1f7ddly"
-        loading="lazy"
-      />
+      <img src="https://asset.dolenglish.vn/cm9mmvwtb5fe40711x1f7ddly" />
     </div>
   </div>
 </template>
@@ -186,6 +174,8 @@
 <script setup lang="ts"></script>
 
 <style scoped lang="scss">
+@import "~/assets/scss/responsive.scss";
+
 .conatiner-card {
   &:hover {
     .nation-vn {

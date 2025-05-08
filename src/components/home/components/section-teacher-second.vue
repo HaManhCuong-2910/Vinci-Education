@@ -289,6 +289,7 @@
       align-center
       :show-close="false"
       :width="'500px'"
+      :class="'max-w-[90%] !rounded-xl'"
       :header-class="'!pb-0'"
       :lock-scroll="false"
     >

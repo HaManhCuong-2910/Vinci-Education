@@ -12,46 +12,25 @@
     </div>
     <div class="relative custom-flex">
       <div class="book-1 book">
-        <img
-          src="https://asset.dolenglish.vn/cm9qhp5v6t7tz0711qxogjux8"
-          loading="lazy"
-        />
+        <img src="https://asset.dolenglish.vn/cm9qhp5v6t7tz0711qxogjux8" />
       </div>
       <div class="book-2 book">
-        <img
-          src="https://asset.dolenglish.vn/cm9qhp5vjt9190h0yk3e6gs2j"
-          loading="lazy"
-        />
+        <img src="https://asset.dolenglish.vn/cm9qhp5vjt9190h0yk3e6gs2j" />
       </div>
       <div class="book-3 book">
-        <img
-          src="https://asset.dolenglish.vn/cm9qhp5wmt7u70711cxjqz1w5"
-          loading="lazy"
-        />
+        <img src="https://asset.dolenglish.vn/cm9qhp5wmt7u70711cxjqz1w5" />
       </div>
       <div class="book-4 book">
-        <img
-          src="https://asset.dolenglish.vn/cm9qhp5uvt9120h0ydhw1hynw"
-          loading="lazy"
-        />
+        <img src="https://asset.dolenglish.vn/cm9qhp5uvt9120h0ydhw1hynw" />
       </div>
       <div class="book book-5">
-        <img
-          src="https://asset.dolenglish.vn/cm9qhp5umt7tu0711gkq0q3c3"
-          loading="lazy"
-        />
+        <img src="https://asset.dolenglish.vn/cm9qhp5umt7tu0711gkq0q3c3" />
       </div>
       <div class="book book-7">
-        <img
-          src="https://asset.dolenglish.vn/cm9qhp5urt90z0h0yzjyiezxn"
-          loading="lazy"
-        />
+        <img src="https://asset.dolenglish.vn/cm9qhp5urt90z0h0yzjyiezxn" />
       </div>
       <div class="book book-6">
-        <img
-          src="https://asset.dolenglish.vn/cm9qhp5wmt7u5071137aq8i8y"
-          loading="lazy"
-        />
+        <img src="https://asset.dolenglish.vn/cm9qhp5wmt7u5071137aq8i8y" />
       </div>
     </div>
   </div>

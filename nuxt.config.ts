@@ -7,16 +7,16 @@ export default defineNuxtConfig({
       titleTemplate: "%s",
       meta: listMetaTagDefault,
       link: [
-        // {
-        //   rel: "icon",
-        //   type: "image/png",
-        //   href: "/imgs/apple-icon.png",
-        // },
-        // {
-        //   rel: "shortcut icon",
-        //   type: "image/png",
-        //   href: "/imgs/apple-icon.png",
-        // },
+        {
+          rel: "icon",
+          type: "image/png",
+          href: "/images/logo.jpg",
+        },
+        {
+          rel: "shortcut icon",
+          type: "image/png",
+          href: "/images/logo.jpg",
+        },
         {
           rel: "preconnect",
           href: "https://fonts.googleapis.com",
@@ -35,7 +35,6 @@ export default defineNuxtConfig({
   },
 
   robots: {
-    // disallow: ["/vnpayment"],
     disallow: [],
   },
 

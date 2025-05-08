@@ -8,11 +8,12 @@
     :width="'500px'"
     :header-class="'!pb-0'"
     :body-class="'!px-5'"
+    :class="'max-w-[90%] !rounded-xl'"
     :lock-scroll="false"
   >
     <div>
       <h3 class="text-3xl font-bold text-center">Tư Vấn Khóa Học</h3>
-      <p class="mt-2 text-sm text-black-300 text-center">
+      <p class="mt-2 text-sm text-black-300 text-center mb-6">
         Bạn vui lòng điền thông tin chính xác.
         <br />
         Vinci Education sẽ liên hệ lại ngay trong 24H
@@ -102,6 +103,36 @@ const onSubmit = async () => {
   FormRef.value?.setTouched(true);
   const isPass = Object.keys(FormRef.value?.errors as object).length === 0;
   if (!isPass) return;
+  const loading = ElLoading.service({
+    lock: true,
+    text: "Loading",
+    background: "rgba(0, 0, 0, 0.7)",
+    customClass: "!z-[2010]",
+  });
+  try {
+    await $fetch("/api/send-info", {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json",
+      },
+      body: data.value,
+    });
+    isShowAdviseDialog.value = false;
+    loading.close();
+    ElMessage({
+      message: "Gửi thành công",
+      type: "success",
+    });
+  } catch (error: any) {
+    const errorData = error.response?._data;
+    loading.close();
+    if (errorData?.message) {
+      ElMessage({
+        message: errorData?.message,
+        type: "error",
+      });
+    }
+  }
 };
 </script>
 

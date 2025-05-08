@@ -71,6 +71,7 @@
     :show-close="false"
     :width="'500px'"
     :header-class="'!pb-0'"
+    :class="'max-w-[90%] !rounded-xl'"
     :lock-scroll="false"
   >
     <div class="relative">
