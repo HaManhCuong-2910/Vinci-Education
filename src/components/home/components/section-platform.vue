@@ -24,7 +24,7 @@
           trải nghiệm tốt nhất cho cả học sinh và giảng viên VNES.
         </p>
         <button-common
-          :class="'w-[293px] !h-[53px] shadow-btn duration-300 hover:scale-105 !rounded-2xl mt-8'"
+          :class="'w-[293px] max-w-full !h-[53px] shadow-btn duration-300 hover:scale-105 !rounded-2xl mt-8'"
           @click="isShowAdviseDialog = true"
         >
           <div class="relative">

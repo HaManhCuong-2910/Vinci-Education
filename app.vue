@@ -48,7 +48,7 @@
             :placeholder="'Chọn'"
           />
           <button-common
-            :class="'w-[293px] !h-[53px] shadow-btn duration-300 hover:scale-105 !rounded-2xl mt-6 mx-auto'"
+            :class="'w-[293px] max-w-full !h-[53px] shadow-btn duration-300 hover:scale-105 !rounded-2xl mt-6 mx-auto'"
             @click="onSubmit"
           >
             <div class="relative">
