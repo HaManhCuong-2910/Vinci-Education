@@ -12,10 +12,15 @@
 
 @import "./reset.scss";
 @import "./responsive.scss";
-
 img {
   width: 100%;
   object-fit: cover;
+}
+
+.custom-backtop {
+  width: 45px !important;
+  height: 45px !important;
+  z-index: 10000 !important;
 }
 
 .button-common {

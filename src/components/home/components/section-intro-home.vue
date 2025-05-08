@@ -1,11 +1,13 @@
 <template>
-  <section class="bg-yellow-300">
+  <section id="ve-chung-toi" class="bg-yellow-300">
     <div
-      class="container mx-auto pt-[100px] pb-[72px] grid grid-cols-2 lg:gap-11"
+      class="container mx-auto lg:pt-[100px] pt-[60px] pb-[72px] grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-11"
     >
       <div>
         <div class="relative w-fit">
-          <h1 class="text-4xl text-primary font-bold">Vinci Education</h1>
+          <h1 class="lg:text-4xl text-3xl text-primary font-bold">
+            Vinci Education
+          </h1>
           <img
             src="/images/icon-header.svg"
             alt="icon"
@@ -13,27 +15,33 @@
           />
         </div>
         <h2
-          class="text-4xl !leading-[45px] font-bold mt-3 text-black-400 relative"
+          class="lg:text-4xl text-3xl !leading-[45px] font-bold mt-3 text-black-400 relative"
         >
           Tự hào
-          <span class="text-4xl font-bold highlight">Trung Tâm Ôn Đại Học</span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">Trung</span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">Tâm </span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">Ôn </span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">Đại </span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">Học </span>
           <br />
           hàng đầu trường Top 1
         </h2>
-        <ul class="mt-8">
+        <ul class="lg:mt-8 mt-5">
           <li class="flex space-x-2 items-center">
             <img src="/images/icon-tick.svg" alt="tick" class="w-5" />
-            <p class="text-xl text-black-300">
+            <p class="lg:text-xl text-base text-black-300">
               Độc quyền phương pháp logical thinking
             </p>
           </li>
           <li class="flex space-x-2 items-center mt-2">
             <img src="/images/icon-tick.svg" alt="tick" class="w-5" />
-            <p class="text-xl text-black-300">Bintest by Phạm Văn Bình</p>
+            <p class="lg:text-xl text-base text-black-300">
+              Bintest by Phạm Văn Bình
+            </p>
           </li>
         </ul>
       </div>
-      <div class="grid grid-cols-2 gap-8">
+      <div class="grid-cols-2 gap-8 hidden lg:grid">
         <img class="w-[236px]" src="/images/anh_1.png" alt="anh_1" />
         <img class="w-[236px]" src="/images/anh_2.png" alt="anh_2" />
         <img class="w-[236px]" src="/images/anh_3.png" alt="anh_3" />

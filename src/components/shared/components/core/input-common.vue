@@ -25,7 +25,7 @@
         :type="props.type === 'number' ? 'text' : props.type"
         :disabled="props.disabled"
         :id="props.id"
-        :clearable="false"
+        :clearable="true"
         :inputMode="props.type === 'number' ? 'numeric' : inputMode"
         :pattern="props.type === 'number' ? '[0-9]*' : props.pattern"
         :autocomplete="props.autocomplete"
@@ -181,18 +181,21 @@ defineExpose({ focus });
 
   .el-input__wrapper {
     box-shadow: unset;
-    border: 1px solid #bfccd9;
-    padding: 2px 12px;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    padding: 8px 16px;
 
     .el-input__inner {
-      font-size: 14px;
+      height: 20px;
       line-height: 20px;
-      w &::-ms-input-placeholder {
+      &::-ms-input-placeholder {
         transform: translateY(1px);
+        @apply font-normal;
       }
 
       &::placeholder {
         transform: translateY(1px);
+        @apply font-normal;
       }
     }
 
@@ -202,8 +205,7 @@ defineExpose({ focus });
     }
 
     &.is-focus {
-      border: 1px solid #0071a9;
-      box-shadow: unset;
+      box-shadow: 0px 0px 0px 1px #bdd7cc;
     }
   }
 
@@ -219,8 +221,10 @@ defineExpose({ focus });
     }
   }
 
-  .el-input__suffix {
-    cursor: pointer;
+  .el-textarea__inner {
+    border-radius: 12px;
+    padding: 6px 16px;
+    resize: none;
   }
 }
 .error-message {
