@@ -28,7 +28,7 @@
           <li class="bg-[#F3F3F3] rounded-2xl py-5 px-8">
             <div class="flex space-x-3 items-center">
               <div
-                class="rounded-full flex justify-center items-center w-[42px] h-[42px] bg-white"
+                class="rounded-full flex justify-center items-center min-w-[42px] max-w-[42px] min-h-[42px] max-h[42px] bg-white"
               >
                 <font-awesome-icon
                   icon="fa-solid fa-graduation-cap"
@@ -45,7 +45,7 @@
           <li class="bg-[#F3F3F3] rounded-2xl py-5 px-8 mt-6">
             <div class="flex space-x-3 items-center">
               <div
-                class="rounded-full flex justify-center items-center w-[42px] h-[42px] bg-white"
+                class="rounded-full flex justify-center items-center min-w-[42px] max-w-[42px] min-h-[42px] max-h[42px] bg-white"
               >
                 <font-awesome-icon
                   icon="fa-solid fa-graduation-cap"
@@ -62,7 +62,7 @@
           <li class="bg-[#F3F3F3] rounded-2xl py-5 px-8 mt-6">
             <div class="flex space-x-3 items-center">
               <div
-                class="rounded-full flex justify-center items-center w-[42px] h-[42px] bg-white"
+                class="rounded-full flex justify-center items-center min-w-[42px] max-w-[42px] min-h-[42px] max-h[42px] bg-white"
               >
                 <font-awesome-icon
                   icon="fa-solid fa-graduation-cap"
