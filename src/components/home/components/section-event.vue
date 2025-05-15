@@ -6,7 +6,7 @@
           class="lg:text-4xl text-3xl text-center font-bold text-black-400 mt-2"
         >
           Sự kiện tiêu biểu <br />
-          của Vinci Education
+          của Global Education
         </h3>
         <div>
           <p

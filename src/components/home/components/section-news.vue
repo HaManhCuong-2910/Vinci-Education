@@ -4,7 +4,7 @@
       Được đánh giá tốt từ các đơn vị uy tín
     </p>
     <h3 class="lg:text-4xl text-3xl mt-3 font-bold text-center">
-      Báo chí viết về Vinci Education
+      Báo chí viết về Global Education
     </h3>
     <div class="flex flex-wrap justify-center gap-4 mt-6">
       <a

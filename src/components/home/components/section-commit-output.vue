@@ -11,7 +11,7 @@
       />
     </p>
     <p class="lg:text-4xl text-3xl text-primary font-bold text-center mt-2">
-      Yên Tâm Học Tại Vinci Education Với Cam Kết Từ Chúng Tôi
+      Yên Tâm Học Tại Global Education Với Cam Kết Từ Chúng Tôi
     </p>
     <p class="mt-6 text-center text-black-300 lg:text-lg text-sm">
       Để học viên hoàn toàn yên tâm vào khóa học, chúng tôi đưa

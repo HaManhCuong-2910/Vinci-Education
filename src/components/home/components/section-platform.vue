@@ -11,7 +11,7 @@
           />
         </p>
         <h3 class="text-4xl text-primary mt-5 font-bold">
-          Nền Tảng Học của Vinci Education
+          Nền Tảng Học của Global Education
         </h3>
 
         <p class="text-black-300 mt-3">

@@ -8,7 +8,7 @@
             class="lg:text-4xl text-3xl font-bold text-black-400 mt-2 text-center"
           >
             Bảng vàng thành tích <br />
-            của học viên Vinci Education
+            của học viên Global Education
           </h3>
         </div>
         <div>

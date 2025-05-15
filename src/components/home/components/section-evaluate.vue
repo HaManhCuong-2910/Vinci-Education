@@ -6,7 +6,7 @@
           class="lg:text-4xl text-3xl text-center font-bold text-black-400 mt-2"
         >
           Học viên nói gì khi học <br />
-          IELTS tại Vinci Education
+          IELTS tại Global Education
         </h3>
         <div>
           <p

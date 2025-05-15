@@ -16,7 +16,7 @@
       <p class="mt-2 text-sm text-black-300 text-center mb-6">
         Bạn vui lòng điền thông tin chính xác.
         <br />
-        Vinci Education sẽ liên hệ lại ngay trong 24H
+        Global Education sẽ liên hệ lại ngay trong 24H
       </p>
       <VForm ref="FormRef" as="div" :validation-schema="schemaAdvise()">
         <div class="grid grid-cols-1 gap-4 mt-3">

@@ -40,10 +40,10 @@
             </div>
             <div>
               <p class="text-lg font-bold text-black-400">
-                Nhắn tin Vinci Education qua Facebook
+                Nhắn tin Global Education qua Facebook
               </p>
               <p class="text-sm font-medium text-black-300">
-                Click để liên hệ Vinci Education qua messenger
+                Click để liên hệ Global Education qua messenger
               </p>
             </div>
           </a>
@@ -80,7 +80,7 @@
             <div>
               <p class="text-lg font-bold text-black-400">Gọi điện liên hệ</p>
               <p class="text-sm font-medium text-black-300">
-                Liên hệ Vinci Education qua số hotline miễn phí: 1800 96 96 39
+                Liên hệ Global Education qua số hotline miễn phí: 1800 96 96 39
               </p>
             </div>
           </a>
@@ -140,10 +140,10 @@
             </div>
             <div>
               <p class="text-lg font-bold text-black-400">
-                Nhắn tin Vinci Education qua Zalo
+                Nhắn tin Global Education qua Zalo
               </p>
               <p class="text-sm font-medium text-black-300">
-                Click để liên hệ Vinci Education qua Zalo
+                Click để liên hệ Global Education qua Zalo
               </p>
             </div>
           </a>

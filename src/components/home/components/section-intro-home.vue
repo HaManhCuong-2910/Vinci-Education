@@ -6,7 +6,7 @@
       <div>
         <div class="relative w-fit">
           <h1 class="lg:text-4xl text-3xl text-primary font-bold">
-            Vinci Education
+            Global Education
           </h1>
           <img
             src="/images/icon-header.svg"
