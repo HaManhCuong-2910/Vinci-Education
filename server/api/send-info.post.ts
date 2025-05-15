@@ -22,7 +22,7 @@ export default defineEventHandler(async (event) => {
 
     await googleSheets.spreadsheets.values.append({
       auth,
-      spreadsheetId: "1IDUM0ii75Bgfm6IwXaalBo2P8ELhv0qpvHQgzSwipbU",
+      spreadsheetId: "1kHbwq3lLaxXHBXvDbU5apDdpJI56xPdEUfmBkL7omJM",
       range: "Sheet1",
       valueInputOption: "USER_ENTERED",
       requestBody: {
