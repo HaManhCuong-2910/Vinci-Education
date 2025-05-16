@@ -4,11 +4,11 @@
   >
     <div class="max-w-[312px]">
       <p class="text-2xl font-bold text-black-400">
-        Phương pháp Tư duy Linearthinking
+        Phương pháp Tư duy Bintest
       </p>
       <p class="text-base mt-2 text-black-300">
-        Phương pháp giúp học Tiếng Anh một cách logic và bản chất do DOL sáng
-        tạo ra.
+        Phương pháp giúp học Tiếng Anh một cách logic và bản chất do Global
+        Education sáng tạo ra.
       </p>
     </div>
 
@@ -80,7 +80,7 @@
       <img src="https://asset.dolenglish.vn/cm9mmt7b35eqd07119zr8xn6n" />
     </div>
     <div class="cert id">
-      <img src="https://asset.dolenglish.vn/cm9mmuoi95f0j071149uqia50" />
+      <img src="/images/cer-thay-binh-1.jpg" />
     </div>
     <div class="cert vn2">
       <img src="https://asset.dolenglish.vn/cm9mmser05eli0711v9ocig51" />
@@ -166,7 +166,7 @@
       </defs>
     </svg>
     <div class="cert us">
-      <img src="https://asset.dolenglish.vn/cm9mmvwtb5fe40711x1f7ddly" />
+      <img src="/images/cer-thay-binh.jpg" />
     </div>
   </div>
 </template>
@@ -184,7 +184,7 @@
       transform: rotateZ(2.6deg);
     }
     .id {
-      bottom: -64px;
+      bottom: 54px;
       right: 197px;
       transform: rotateZ(-16.32deg);
     }

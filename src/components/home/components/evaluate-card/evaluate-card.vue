@@ -21,15 +21,15 @@
         <div class="w-10 h-10 rounded-full overflow-hidden relative shrink-0">
           <div>
             <img
-              src="https://asset.dolenglish.vn/WY0QVmSoQ5m6n4W3VpFI"
+              :src="props.data?.avatar"
               loading="lazy"
-              alt="Lê Thị Ngọc Trâm's avatar"
+              alt="avatar"
               class="absolute top-0 left-0 w-full h-full"
             />
           </div>
         </div>
         <div class="grid gap-[2px]">
-          <p class="font-semibold text-black-400">Lê Thị Ngọc Trâm</p>
+          <p class="font-semibold text-black-400">{{ props.data?.name }}</p>
           <p class="text-black-300 text-sm">Tháng 01, 2025</p>
         </div>
       </div>
@@ -52,55 +52,32 @@
         </div>
         <div>
           <img
-            src="https://asset.dolenglish.vn/TaXXl6caQjWMZKP4htzx"
+            :src="props.data?.fb"
             loading="lazy"
-            alt="Lê Thị Ngọc Trâm's feedback"
+            alt="feedback"
             class="absolute top-0 right-0 w-full h-full border border-[#E3E7ED] rounded-md"
           />
         </div>
       </div>
     </div>
     <p class="text-[#313A44] line-clamp-5">
-      Hi guys welcome to my post ✍🏻 Hồi trước là tui có viết 1 bài rì viu lớp
-      pre ở DOL rùi nay tui viết tiếp bài rì viu lớp 5.0 ở DOL nhen🫰🏻. Cho
-      những ai chưa biết thì bài viết trước mình có nói là mình rất rất dở môn
-      Tiếng Anh và mình luôn xem nó là kẻ thù không đội trời chung với
-      mình,nhưng sau khi trải qua thêm 2 lớp nữa là 4.0 và 5.0 thì sau khoá 5.0
-      tui mới thấy là thật ra Tiếng Anh cũng không khó lắm🥲.Để kể cho nghe,ở
-      DOL có một phương pháp Linearthinking đang rất hot🔥,mỗi kỹ năng làm bài
-      đều có phương pháp và công thức rõ ràng,giúp cho mình hiểu hơn về Tiếng
-      Anh🌟trong khoảng thời gian học khoá 5.0 thì ở trên trường bắt đầu có
-      những bài kiểm tra speaking với giáo viên nước ngoài,thì mình đã có thể tự
-      tin trả lời các câu hỏi của giáo 1 cách mạch lạc hơn nhờ phương pháp học
-      tập và tư duy nói mà mình đã được học ở DOL🐬 không còn sợ khi speaking
-      với giáo viên nước ngoài như trước nữa🥲hồi trước là tui chỉ ngồi yên nghe
-      các bạn giao tiếp với giáo viên thui còn giờ thì tui có thể cook các câu
-      hỏi nhẹ nhàng nhờ phương pháp Linearthinking😎 Tiếp tiếp tiếp ,chưa hết
-      được đâu nãy giờ tui chỉ nói những gì tui được học thui à vậy ai truyền
-      đạt cho tui(một người vô cùng chậm hiểu)để tui có thể hiểu và nắm gọn kiến
-      thức như vậy nhỉ?🤔It’s my teacher Hiền Anh👨🏻&zwj;💻 Một người siêu siêu
-      vui tính,hài hước, làm cho phòng học lúc nào cũng sôi động đầy hứng thú.Và
-      đặc biệt cực kỳ cháy❤️&zwj;🔥 với những bài giảng và các kiến thức thầy
-      truyền đạt đến học viên thầy luôn đưa ra những ví dụ giúp học viên dễ hiểu
-      hơn từ đó học viên có thể nắm bài kỹ càng hơn.Rất quan tâm đến học viên
-      của mình,take care siêu siêu kỹ mặc dù thầy rất bận,trước tui không hiểu
-      bài 12h đêm nhắn hỏi thầy thầy vẫn trả lời và sửa bài cho tui đầy đủ
-      luôn🥹.Thầy Hiền Anh💯 Cái cuối cùng là ở DOL có 1 cái công nghệ super.lms
-      siu tuỵt zời🤩.Ở trên nền tảng công nghệ này ngoài làm bài tập ra nó còn
-      giúp mình có thể tự học ở trên này luôn🥹lúc đầu mình cứ sợ khó dùng và
-      không đủ lượng bài tập làm luôn í.Nhưng mà sau khi trải nghiệm super.lms
-      tại DOL xong thì cảm thấy như một chân trời mới luôn á vô vàng kiến thức
-      nhiều mục tự học khác nhau luôn í.Siêu tuỵt zời🫶🏻DOL Đình Lực là đáng để
-      cân nhắc và học tại DOL ngoài trang thiết bị hiện đại thì đội ngũ giáo
-      viên và các anh chị tư vấn rât nhiệt tình.Với phương pháp học tân tiến thì
-      dành cho những ai muốn luyện thi IELTS thì rất đáng để đến trải nghiệm và
-      học tập.Hiện tại DOL đã và đang trên đà phát triển để giúp các học viên
-      của mình đạt được số điểm và mục tiêu mà mình mong ước á❤️ Ẩn bớt
+      {{ props.data?.description }}
     </p>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import type { PropType } from "vue";
+
+const props = defineProps({
+  data: Object as PropType<{
+    avatar: string;
+    fb: string;
+    name: string;
+    description: string;
+  }>,
+});
+</script>
 
 <style scoped lang="scss">
 .bg {

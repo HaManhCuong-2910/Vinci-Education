@@ -1,25 +1,26 @@
 <template>
-  <section id="cam-ket" class="container mx-auto lg:pb-28 pb-20 pt-16">
-    <p
-      class="lg:text-lg text-base uppercase text-black-300 relative w-fit mx-auto"
-    >
-      Cam kết
-      <img
-        src="/images/icon-subtitle.png"
-        alt="icon"
-        class="absolute -top-[6px] -left-3 w-4"
-      />
-    </p>
-    <p class="lg:text-4xl text-3xl text-primary font-bold text-center mt-2">
-      Yên Tâm Học Tại Global Education Với Cam Kết Từ Chúng Tôi
-    </p>
-    <p class="mt-6 text-center text-black-300 lg:text-lg text-sm">
-      Để học viên hoàn toàn yên tâm vào khóa học, chúng tôi đưa
-      <br />
-      ra những quyền lợi tốt nhất dành cho bạn!
-    </p>
+  <section id="cam-ket" class="lg:pb-28 pb-20 pt-16">
+    <div class="container mx-auto">
+      <p
+        class="lg:text-lg text-base uppercase text-black-300 relative w-fit mx-auto"
+      >
+        Cam kết
+        <img
+          src="/images/icon-subtitle.png"
+          alt="icon"
+          class="absolute -top-[6px] -left-3 w-4"
+        />
+      </p>
+      <p class="lg:text-4xl text-3xl text-primary font-bold text-center mt-2">
+        Yên Tâm Học Tại Global Education Với Cam Kết Từ Chúng Tôi
+      </p>
+    </div>
 
-    <div class="mt-10 grid lg:grid-cols-4 grid-cols-1">
+    <div class="lg:container mx-auto">
+      <img src="/images/cer-completion-ha-anh-duong.jpg" class="mt-6 w-full" />
+    </div>
+
+    <div class="mt-10 grid lg:grid-cols-4 grid-cols-1 container mx-auto">
       <div
         class="bg-[#E44749] px-8 pt-5 bg-opacity-[0.03] w-[300px] mx-auto h-[300px]"
       >

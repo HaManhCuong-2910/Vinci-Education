@@ -1,28 +1,28 @@
 <template>
-  <section
-    id="lo-trinh-luyen-thi"
-    class="container mx-auto lg:pb-28 pb-20 pt-16"
-  >
-    <p
-      class="lg:text-lg text-base uppercase text-black-300 relative w-fit mx-auto"
-    >
-      LỘ TRÌNH LUYỆN THI
-      <img
-        src="/images/icon-subtitle.png"
-        alt="icon"
-        class="absolute -top-[8px] -left-4 w-4"
-      />
-    </p>
-    <p class="lg:text-4xl text-3xl text-primary font-bold text-center mt-2">
-      Lộ Trình 3 Bước Chinh Phục Cánh Cửa Đại Học
-    </p>
-    <p class="mt-6 text-center text-black-300 lg:text-lg text-sm">
-      Lộ trình học toàn diện, rõ ràng áp dụng những chiến thuật
-      <br />
-      làm bài thi ĐGNL ĐHQG mới nhất 2025
-    </p>
+  <section id="lo-trinh-luyen-thi" class="lg:pb-28 pb-20 pt-16">
+    <div class="container mx-auto">
+      <p
+        class="lg:text-lg text-base uppercase text-black-300 relative w-fit mx-auto"
+      >
+        LỘ TRÌNH LUYỆN THI
+        <img
+          src="/images/icon-subtitle.png"
+          alt="icon"
+          class="absolute -top-[8px] -left-4 w-4"
+        />
+      </p>
+      <p class="lg:text-4xl text-3xl text-primary font-bold text-center mt-2">
+        Lộ Trình 3 Bước Chinh Phục Cánh Cửa Đại Học
+      </p>
+    </div>
 
-    <div class="lg:mt-20 mt-14 grid lg:grid-cols-2 grid-cols-1 gap-8">
+    <div class="lg:container mx-auto">
+      <img src="/images/lo-trinh-3-buoc.jpg" class="mt-6 w-full" />
+    </div>
+
+    <div
+      class="lg:mt-20 mt-14 grid lg:grid-cols-2 grid-cols-1 gap-8 container mx-auto"
+    >
       <div>
         <ul>
           <li class="bg-[#F3F3F3] rounded-2xl py-5 px-8">

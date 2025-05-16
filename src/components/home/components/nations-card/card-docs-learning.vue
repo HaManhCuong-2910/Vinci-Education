@@ -4,10 +4,11 @@
   >
     <div class="max-w-[312px]">
       <p class="text-2xl font-bold text-black-400">
-        Tư liệu học tập độc quyền chỉ có tại DOL
+        Tư liệu học tập độc quyền chỉ có tại Global Education
       </p>
       <p class="text-base mt-2 text-black-300">
-        Tất cả sách đều do DOL tự lên nội dung và thiết kế theo tư duy riêng.
+        Tất cả sách đều do Global Education tự lên nội dung và thiết kế theo tư
+        duy riêng.
       </p>
     </div>
     <div class="relative custom-flex">

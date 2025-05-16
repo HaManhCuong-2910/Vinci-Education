@@ -18,7 +18,7 @@
           class="lg:text-4xl text-3xl !leading-[45px] font-bold mt-3 text-black-400 relative"
         >
           Tự hào
-          <span class="lg:text-4xl text-3xl font-bold highlight">Trung</span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">Trung </span>
           <span class="lg:text-4xl text-3xl font-bold highlight">Tâm </span>
           <span class="lg:text-4xl text-3xl font-bold highlight">Ôn </span>
           <span class="lg:text-4xl text-3xl font-bold highlight">Đại </span>

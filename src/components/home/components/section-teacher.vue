@@ -4,13 +4,10 @@
       <h3 class="lg:text-4xl text-3xl font-bold text-black-400 text-center">
         Đội ngũ giáo viên
       </h3>
-      <p class="lg:mt-8 mt-4 text-center font-medium">
-        DOL bao gồm 67 giáo viên
-      </p>
       <p class="mt-4 text-center">
-        Là những giáo viên giỏi kiến thức và giỏi truyền đạt. Rất tận tâm với
-        học viên, đi <br />
-        dạy vì cái tâm và luôn khát khao cải tiến việc học Tiếng Anh ở Việt Nam.
+        Giáo viên giỏi kiến thức và truyền đạt bằng phương pháp độc quyền thuộc
+        Global Education.<br />
+        Tận tâm với học viên khao khát cải tiến việc học tại Việt Nam <br />
       </p>
     </div>
 
@@ -361,45 +358,45 @@ const dataDialog = ref({
 
 const dataShow = ref([
   {
-    avatar: "https://asset.dolenglish.vn/N3O4zNnGTFi4dxZI0MJk",
-    point: 8.5,
-    name: "Nguyễn Quang Minh",
-    school: "THPT chuyên Trần Đại Nghĩa - HCM",
+    avatar: "/images/giao-vien-van-anh.jpg",
+    point: 8.0,
+    name: "Vân Anh",
+    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
     cer: "/images/cer-1.png",
   },
   {
-    avatar: "https://asset.dolenglish.vn/N3O4zNnGTFi4dxZI0MJk",
-    point: 8.5,
-    name: "Nguyễn Quang Minh",
-    school: "THPT chuyên Trần Đại Nghĩa - HCM",
+    avatar: "/images/giao-vien-van-anh.jpg",
+    point: 8.0,
+    name: "Vân Anh",
+    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
     cer: "/images/cer-1.png",
   },
   {
-    avatar: "https://asset.dolenglish.vn/N3O4zNnGTFi4dxZI0MJk",
-    point: 8.5,
-    name: "Nguyễn Quang Minh",
-    school: "THPT chuyên Trần Đại Nghĩa - HCM",
+    avatar: "/images/giao-vien-van-anh.jpg",
+    point: 8.0,
+    name: "Vân Anh",
+    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
     cer: "/images/cer-1.png",
   },
   {
-    avatar: "https://asset.dolenglish.vn/N3O4zNnGTFi4dxZI0MJk",
-    point: 8.5,
-    name: "Nguyễn Quang Minh",
-    school: "THPT chuyên Trần Đại Nghĩa - HCM",
+    avatar: "/images/giao-vien-van-anh.jpg",
+    point: 8.0,
+    name: "Vân Anh",
+    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
     cer: "/images/cer-1.png",
   },
   {
-    avatar: "https://asset.dolenglish.vn/N3O4zNnGTFi4dxZI0MJk",
-    point: 8.5,
-    name: "Nguyễn Quang Minh",
-    school: "THPT chuyên Trần Đại Nghĩa - HCM",
+    avatar: "/images/giao-vien-van-anh.jpg",
+    point: 8.0,
+    name: "Vân Anh",
+    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
     cer: "/images/cer-1.png",
   },
   {
-    avatar: "https://asset.dolenglish.vn/N3O4zNnGTFi4dxZI0MJk",
-    point: 8.5,
-    name: "Nguyễn Quang Minh",
-    school: "THPT chuyên Trần Đại Nghĩa - HCM",
+    avatar: "/images/giao-vien-van-anh.jpg",
+    point: 8.0,
+    name: "Vân Anh",
+    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
     cer: "/images/cer-1.png",
   },
 ]);
