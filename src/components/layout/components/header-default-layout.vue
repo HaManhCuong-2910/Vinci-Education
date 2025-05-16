@@ -2,7 +2,7 @@
   <header
     class="box-shadow-header fixed top-0 left-0 right-0 w-full bg-white z-[1000]"
   >
-    <nav class="container mx-auto grid grid-cols-5 gap-4 items-center">
+    <nav class="container mx-auto grid grid-cols-5 gap-4 items-center lg:pt-1">
       <img
         src="/images/logo.jpg"
         alt="logo"

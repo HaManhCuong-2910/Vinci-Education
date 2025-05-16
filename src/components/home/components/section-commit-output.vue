@@ -42,23 +42,6 @@
         class="bg-[#F5F5F5] px-8 pt-5 bg-opacity-[0.03] w-[300px] mx-auto h-[300px]"
       >
         <div
-          class="rounded-full flex justify-center items-center w-[53px] h-[53px] bg-[#4ACB68] bg-opacity-[0.1]"
-        >
-          <font-awesome-icon
-            :icon="['fas', 'cash-register']"
-            class="text-[#4ACB68] text-xl"
-          />
-        </div>
-        <h3 class="text-2xl font-bold text-black-400 mt-4">Đăng Ký Slot Thi</h3>
-        <p class="text-black-300 mt-3">
-          Hỗ trợ các em từ A-Z đăng ký slot thi 100% thành công. Giảm tải gánh
-          nặng cho thí sinh.
-        </p>
-      </div>
-      <div
-        class="bg-[#E44749] px-8 pt-5 bg-opacity-[0.03] w-[300px] mx-auto h-[300px]"
-      >
-        <div
           class="rounded-full flex justify-center items-center w-[53px] h-[53px] bg-[#316AFF] bg-opacity-[0.1]"
         >
           <font-awesome-icon
@@ -67,15 +50,15 @@
           />
         </div>
         <h3 class="text-2xl font-bold text-black-400 mt-4">
-          Tối Thiểu 80 Điểm
+          Cam kết về điểm số
         </h3>
         <p class="text-black-300 mt-3">
-          Khóa cam kết thi đạt tối thiểu 80 điểm cho học viên tham gia khóa học
-          PRO VNEs
+          Khoá học cam kết điểm số 9+ khi học sinh tham gia đầy đủ bài giảng của
+          khoá học
         </p>
       </div>
       <div
-        class="bg-[#F5F5F5] px-8 pt-5 bg-opacity-[0.03] w-[300px] mx-auto h-[300px]"
+        class="bg-[#E44749] px-8 pt-5 bg-opacity-[0.03] w-[300px] mx-auto h-[300px]"
       >
         <div
           class="rounded-full flex justify-center items-center w-[53px] h-[53px] bg-[#FFBE1B] bg-opacity-[0.1]"

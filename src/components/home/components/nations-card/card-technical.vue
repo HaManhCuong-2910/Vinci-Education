@@ -24,7 +24,7 @@
               stroke-linejoin="round"
             ></path>
           </svg>
-          <p class="text-base">Assignment</p>
+          <p class="text-base">Global education</p>
         </li>
       </ul>
     </div>
@@ -89,9 +89,9 @@
           >
             <div>
               <img
-                src="https://asset.dolenglish.vn/cm9qlks56u5zn0h0ydyb4n6oc"
+                src="/images/cer-le-minh-duc.jpg"
                 loading="lazy"
-                class="absolute left-0 bottom-0 w-full h-auto rounded-3xl"
+                class="absolute left-0 bottom-0 w-full h-auto max-h-full rounded-3xl"
               />
             </div>
           </div>

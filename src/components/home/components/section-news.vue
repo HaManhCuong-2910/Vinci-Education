@@ -25,32 +25,20 @@
 <script setup lang="ts">
 const listNews = ref([
   {
-    logo: "/images/httv-9.png",
-    url: "https://youtu.be/LTkW7oiLSU0",
-  },
-  {
-    logo: "/images/vtv7.png",
-    url: "https://youtu.be/LTkW7oiLSU0",
-  },
-  {
-    logo: "/images/bao-thanh-nien.png",
-    url: "https://youtu.be/LTkW7oiLSU0",
+    logo: "/images/bao-giao-duc-thoi-dai.jpg",
+    url: "/",
   },
   {
     logo: "/images/tuoi-tre.png",
-    url: "https://youtu.be/LTkW7oiLSU0",
+    url: "/",
   },
   {
-    logo: "/images/nhan-dan.png",
-    url: "https://youtu.be/LTkW7oiLSU0",
+    logo: "/images/bao-thanh-nien.png",
+    url: "/",
   },
   {
-    logo: "/images/edu-review.png",
-    url: "https://youtu.be/LTkW7oiLSU0",
-  },
-  {
-    logo: "/images/vtv-24.png",
-    url: "https://youtu.be/LTkW7oiLSU0",
+    logo: "/images/bao-tien-phong.jpg",
+    url: "/",
   },
 ]);
 </script>

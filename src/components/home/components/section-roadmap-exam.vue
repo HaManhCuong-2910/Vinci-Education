@@ -35,11 +35,14 @@
                   class="text-[#FB6239] text-lg"
                 />
               </div>
-              <p class="text-xl font-bold">1. XÂY DỰNG KIẾN THỨC NỀN TẢNG</p>
+              <p class="text-xl font-bold uppercase">
+                1. Độc quyền ôn mất gốc Bintest by Global Education
+              </p>
             </div>
             <p class="text-base text-black-300 mt-3">
-              Xây dựng lại kiến thức từ đầu, giúp học viên nắm chắc kiến thức
-              nền tảng bám sát nhất với cấu trúc đề thi ĐGNL.
+              Độc quyền phương pháp ôn bài bản từ mất gốc Bintest của Global
+              Education giúp học sinh bám chắc kiến thức và được tổng ôn kĩ từ "
+              MẤT GỐC " bám chắc kiến thức nền
             </p>
           </li>
           <li class="bg-[#F3F3F3] rounded-2xl py-5 px-8 mt-6">
@@ -52,11 +55,13 @@
                   class="text-[#316AFF] text-lg"
                 />
               </div>
-              <p class="text-xl font-bold">2. ÔN LUYỆN TOÀN DIỆN</p>
+              <p class="text-xl font-bold uppercase">
+                2. Tổng ôn và phát triển toàn diện Global Education
+              </p>
             </div>
             <p class="text-base text-black-300 mt-3">
-              Trang bị cho thí sinh tất cả các kiến thức dạng bài kĩ năng cần
-              thiết cho kì thi ĐGNL ĐHQG HN cho từng chuyên đề
+              Học bài bản ôn từ mất gốc xong sẽ học giai đoạn 2 tổng ôn toàn
+              diện bám sát 8+ THPT Quốc Gia
             </p>
           </li>
           <li class="bg-[#F3F3F3] rounded-2xl py-5 px-8 mt-6">
@@ -69,11 +74,14 @@
                   class="text-[#FFBE1B] text-lg"
                 />
               </div>
-              <p class="text-xl font-bold">3. LUYỆN ĐỀ & THI THỬ</p>
+              <p class="text-xl font-bold uppercase">
+                3. Bộ đề Tiến sĩ Đhqg biên soạn bởi Global Education
+              </p>
             </div>
             <p class="text-base text-black-300 mt-3">
-              Giúp thí sinh học sâu rộng các phần kiến thức mức độ chuyên sâu và
-              ứng dụng thực chiến với bộ đề thi chuẩn
+              Thí sinh luyện bộ đề độc quyền được biên soạn bởi Tiến sĩ của Đại
+              Học Quốc Gia Hà Nội và ứng dụng bộ đề chuẩn form của kì thi giúp
+              các bạn đỗ đại học Top 1
             </p>
           </li>
         </ul>

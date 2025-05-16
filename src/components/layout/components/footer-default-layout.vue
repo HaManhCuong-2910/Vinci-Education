@@ -66,54 +66,27 @@ const dataTutorial = ref([
   {
     label: "",
     value: "IELTS Intensive 0",
-    url: "https://www.dolenglish.vn/ielts/ielts-intensive-0",
+    url: "/",
   },
   {
     label: "",
     value: "IELTS Intensive 1",
-    url: "https://www.dolenglish.vn/ielts/ielts-intensive-1",
+    url: "/",
   },
   {
     label: "",
     value: "IELTS Intensive 2",
-    url: "https://www.dolenglish.vn/ielts/ielts-intensive-2",
+    url: "/",
   },
   {
     label: "",
     value: "IELTS Intensive 3",
-    url: "https://www.dolenglish.vn/ielts/ielts-intensive-3",
+    url: "/",
   },
   {
     label: "",
     value: "IELTS Intensive 4",
-    url: "https://www.dolenglish.vn/ielts/ielts-intensive-4",
-  },
-]);
-const dataTutorialOther = ref([
-  {
-    label: "",
-    value: "IELTS Intensive 0",
-    url: "https://www.dolenglish.vn/ielts/ielts-intensive-0",
-  },
-  {
-    label: "",
-    value: "IELTS Intensive 1",
-    url: "https://www.dolenglish.vn/ielts/ielts-intensive-1",
-  },
-  {
-    label: "",
-    value: "IELTS Intensive 2",
-    url: "https://www.dolenglish.vn/ielts/ielts-intensive-2",
-  },
-  {
-    label: "",
-    value: "IELTS Intensive 3",
-    url: "https://www.dolenglish.vn/ielts/ielts-intensive-3",
-  },
-  {
-    label: "",
-    value: "IELTS Intensive 4",
-    url: "https://www.dolenglish.vn/ielts/ielts-intensive-4",
+    url: "/",
   },
 ]);
 const dataAddress = ref([
@@ -169,7 +142,7 @@ const dataContact = ref([
   {
     label: "Inbox:",
     value: "m.me/dolenglish.ieltsdinhluc",
-    url: "https://m.me/dolenglish.ieltsdinhluc",
+    url: "/",
   },
   {
     label: "Hotline:",

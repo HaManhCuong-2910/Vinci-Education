@@ -15,13 +15,11 @@
         </h3>
 
         <p class="text-black-300 mt-3">
-          Bắt đầu từ tháng 6/2023, Edubit đồng hành cùng trung tâm VNEs trong
-          việc chuyển đổi số nền tảng giảng dạy và đào tạo.
-        </p>
-        <p class="text-black-300 mt-3">
-          Edubit sẽ là đơn vị chịu trách nhiệm cung cấp nền tảng số trong việc
-          giảng dạy, tạo đề thi, làm bài và các tính năng liên quan nhằm đem lại
-          trải nghiệm tốt nhất cho cả học sinh và giảng viên VNES.
+          Global Education vinh dự là nhà đồng hành độc quyền có nền tảng riêng
+          học trực tuyến 100% tương tác với giáo viên và được sự hỗ trợ 24/24
+          cùng trợ giảng . Giúp các bạn học sinh trải nghiệm chất lượng học
+          tuyệt đối đẳng cấp vươn tầm quốc tế và chính là giá trị để các em đỗ
+          đại học top 1
         </p>
         <button-common
           :class="'w-[293px] max-w-full !h-[53px] shadow-btn duration-300 hover:scale-105 !rounded-2xl mt-8'"

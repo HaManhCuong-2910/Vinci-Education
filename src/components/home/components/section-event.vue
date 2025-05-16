@@ -21,12 +21,37 @@
       </div>
 
       <div class="mt-14 grid lg:grid-cols-3 grid-cols-1 gap-6">
-        <event-card v-for="item in 9" :key="item" />
+        <event-card
+          v-for="(item, index) in dataShow"
+          :key="index"
+          :data="item"
+        />
       </div>
     </div>
   </section>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const dataShow = ref([
+  {
+    thumbnail: "/images/tin-tuc.jpg",
+    title: "Tập Huấn",
+    description:
+      "Tháng 5/2025 , Tại trường Đại Học Ngoại Ngữ - Đại Học Quốc Gia Hà Nội , Giám đốc Global Education - Anh Phạm Văn Bình đã chính thức là diễn giả tại sự kiện cùng sinh viên trường đại học Ngoại Ngữ",
+  },
+  {
+    thumbnail: "/images/tin-tuc-2.jpg",
+    title: "Tập Huấn",
+    description:
+      "Tháng 5/2025 , Tại trường Đại Học Ngoại Ngữ - Đại Học Quốc Gia Hà Nội , Giám đốc Global Education - Anh Phạm Văn Bình đã chính thức là diễn giả tại sự kiện cùng sinh viên trường đại học Ngoại Ngữ",
+  },
+  {
+    thumbnail: "/images/tin-tuc-3.jpg",
+    title: "Tập Huấn",
+    description:
+      "Tháng 5/2025 , Tại trường Đại Học Ngoại Ngữ - Đại Học Quốc Gia Hà Nội , Giám đốc Global Education - Anh Phạm Văn Bình đã chính thức là diễn giả tại sự kiện cùng sinh viên trường đại học Ngoại Ngữ",
+  },
+]);
+</script>
 
 <style scoped lang="scss"></style>

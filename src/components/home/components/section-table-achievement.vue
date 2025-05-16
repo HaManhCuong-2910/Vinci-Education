@@ -29,7 +29,7 @@
             class="relative border-custom rounded-3xl aspect-[258/192] watch-result overflow-hidden"
           >
             <img :src="item.avatar" alt="thanh-tich" class="w-full h-full" />
-            <button
+            <!-- <button
               class="button-absolute"
               @click="
                 () => {
@@ -46,7 +46,7 @@
                 alt="arrow-right"
                 class="w-4"
               />
-            </button>
+            </button> -->
             <div
               class="desc absolute bg-white bg-opacity-80 rounded-xl pt-2 px-4 pb-[14px] bottom-3 backdrop-blur-[32px] left-3"
             >
@@ -119,29 +119,29 @@ const dataShow = ref([
   {
     avatar: "/images/trinh-khanh-vy.jpg",
     point: 8.5,
-    name: "Nguyễn Quang Minh",
-    school: "THPT chuyên Trần Đại Nghĩa - HCM",
+    name: "Trịnh Khánh Vy",
+    school: "",
     cer: "/images/cer-1.png",
   },
   {
     avatar: "/images/ha-anh-duong.jpg",
     point: 8.5,
-    name: "Nguyễn Quang Minh",
-    school: "THPT chuyên Trần Đại Nghĩa - HCM",
+    name: "Hà Ánh Dương",
+    school: "",
     cer: "/images/cer-1.png",
   },
   {
     avatar: "/images/tran-viet-thanh.jpg",
     point: 8.5,
-    name: "Nguyễn Quang Minh",
-    school: "THPT chuyên Trần Đại Nghĩa - HCM",
+    name: "Trần Việt Thành",
+    school: "",
     cer: "/images/cer-1.png",
   },
   {
     avatar: "/images/le-chi-thao.jpg",
     point: 8.5,
-    name: "Nguyễn Quang Minh",
-    school: "THPT chuyên Trần Đại Nghĩa - HCM",
+    name: "Lê Chí Thảo",
+    school: "",
     cer: "/images/cer-1.png",
   },
 ]);
@@ -182,13 +182,13 @@ const dataShow = ref([
 
   &:hover {
     &::after {
-      opacity: 1;
-      visibility: visible;
+      // opacity: 1;
+      // visibility: visible;
     }
 
     .button-absolute {
-      opacity: 1;
-      visibility: visible;
+      // opacity: 1;
+      // visibility: visible;
     }
   }
 
