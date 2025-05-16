@@ -5,9 +5,8 @@
         Đội Ngũ Trợ Giảng Tài Ba Hỗ Trợ Đắc Lực Cho Bạn
       </h3>
       <p class="mt-4 text-center lg:text-base text-sm">
-        Đội ngũ trợ giảng gồm các anh chị là sinh viên các trường Đại học nổi
-        tiếng <br />
-        trên cả nước và đạt 110+ trong kì thi ĐGNL năm 2022, 2023.
+        Đội ngũ trợ giảng đỗ đại học top 1 như Ngoại Thương, Bách Khoa đạt 8.0
+        Ielts và hỗ trợ xuất sắc cho học viên
       </p>
     </div>
 
@@ -87,7 +86,11 @@
             <div
               class="w-full rounded-2xl overflow-hidden relative aspect-[251/314] watch-result keen-slider__slide"
             >
-              <img :src="item.cer" alt="cer" class="w-full h-full" />
+              <img
+                :src="item.cer"
+                alt="cer"
+                class="w-full h-full object-contain"
+              />
             </div>
           </div>
           <div class="mt-4 px-3">
@@ -299,7 +302,6 @@ const [container] = useKeenSlider({
 const [container1] = useKeenSlider(
   {
     loop: true,
-    mode: "free",
     slides: {
       origin: "center",
       perView: 1,
@@ -350,7 +352,7 @@ const dataShow = ref([
     avatar: "/images/tro-giang-le-minh-duc.jpg",
     point: 8.5,
     name: "Lê Minh Đức",
-    school: "Đỗ xét tuyển ĐH Bách Khoa Hà Nội",
+    school: "Trợ giảng Global Education by Phạm Văn Bình 8.0 Ielts",
     cer: "/images/cer-le-minh-duc.jpg",
   },
 ]);
