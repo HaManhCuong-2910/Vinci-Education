@@ -2,7 +2,7 @@
   <section id="hinh-thuc-hoc" class="lg:py-28 py-20 container mx-auto">
     <div class="grid lg:grid-cols-2 grid-cols-1 gap-8">
       <div>
-        <p class="text-lg uppercase text-black-300 relative w-fit pl-3">
+        <p class="text-lg uppercase text-black-300 relative w-fit pl-2">
           HÌNH THỨC HỌC
           <img
             src="/images/icon-subtitle.png"

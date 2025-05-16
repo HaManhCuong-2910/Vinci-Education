@@ -2,7 +2,7 @@
   <section class="bg-custom">
     <div class="lg:bg-white lg:container lg:mx-auto box-shadow lg:p-9">
       <img
-        src="/images/section-2.jpg"
+        src="/images/thay-giao-binh.jpg"
         alt="section"
         class="lg:w-[600px] w-full mx-auto hover:scale-105 duration-300 cursor-pointer"
         @click="isShowAdviseDialog = true"

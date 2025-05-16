@@ -166,7 +166,7 @@
       </defs>
     </svg>
     <div class="cert us">
-      <img src="/images/cer-thay-binh.jpg" />
+      <img src="/images/course_completed.jpg" />
     </div>
   </div>
 </template>
@@ -200,7 +200,7 @@
       transform: rotateZ(15.19deg);
     }
     .us {
-      bottom: -26px;
+      bottom: 26px;
       right: 84px;
       transform: rotateZ(-3.77deg);
     }

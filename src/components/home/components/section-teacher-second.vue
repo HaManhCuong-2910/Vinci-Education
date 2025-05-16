@@ -83,8 +83,8 @@
               </p>
             </div>
 
-            <button
-              class="button-absolute text-nowrap whitespace-nowrap"
+            <div
+              class="button-absolute"
               @click="
                 () => {
                   dataDialog.isShowDialog = true;
@@ -94,13 +94,8 @@
                 }
               "
             >
-              Xem result
-              <img
-                src="/images/arrow-right.svg"
-                alt="arrow-right"
-                class="w-4"
-              />
-            </button>
+              <img :src="item.cer" class="w-full" />
+            </div>
           </div>
           <div class="mt-4 px-3">
             <p
@@ -341,7 +336,7 @@ const [container] = useKeenSlider({
   },
   breakpoints: {
     "(max-width: 600px)": {
-      slides: { perView: 1.5, origin: "center", spacing: 15 },
+      slides: { perView: 1, origin: "center", spacing: 15 },
     },
     "(min-width: 601px)": {
       slides: { perView: 5, origin: "center", spacing: 15 },
@@ -357,41 +352,6 @@ const dataDialog = ref({
 });
 
 const dataShow = ref([
-  {
-    avatar: "/images/tro-giang-le-minh-duc.jpg",
-    point: 8.5,
-    name: "Lê Minh Đức",
-    school: "Đỗ xét tuyển ĐH Bách Khoa Hà Nội",
-    cer: "/images/cer-le-minh-duc.jpg",
-  },
-  {
-    avatar: "/images/tro-giang-le-minh-duc.jpg",
-    point: 8.5,
-    name: "Lê Minh Đức",
-    school: "Đỗ xét tuyển ĐH Bách Khoa Hà Nội",
-    cer: "/images/cer-le-minh-duc.jpg",
-  },
-  {
-    avatar: "/images/tro-giang-le-minh-duc.jpg",
-    point: 8.5,
-    name: "Lê Minh Đức",
-    school: "Đỗ xét tuyển ĐH Bách Khoa Hà Nội",
-    cer: "/images/cer-le-minh-duc.jpg",
-  },
-  {
-    avatar: "/images/tro-giang-le-minh-duc.jpg",
-    point: 8.5,
-    name: "Lê Minh Đức",
-    school: "Đỗ xét tuyển ĐH Bách Khoa Hà Nội",
-    cer: "/images/cer-le-minh-duc.jpg",
-  },
-  {
-    avatar: "/images/tro-giang-le-minh-duc.jpg",
-    point: 8.5,
-    name: "Lê Minh Đức",
-    school: "Đỗ xét tuyển ĐH Bách Khoa Hà Nội",
-    cer: "/images/cer-le-minh-duc.jpg",
-  },
   {
     avatar: "/images/tro-giang-le-minh-duc.jpg",
     point: 8.5,
@@ -476,20 +436,22 @@ const dataShow = ref([
     .button-absolute {
       opacity: 1;
       visibility: visible;
+      transform: translateY(0);
+      transition: 0.3s;
     }
   }
 
   .button-absolute {
-    padding: 12px;
     background-color: transparent;
     color: rgb(255, 255, 255);
     border: 0px;
     outline: none;
     cursor: pointer;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: 2;
     font: inherit;
     display: flex;
@@ -499,6 +461,7 @@ const dataShow = ref([
     visibility: hidden;
     opacity: 0;
     transition: 0.3s;
+    transform: translateY(100%);
   }
 }
 

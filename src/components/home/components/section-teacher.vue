@@ -341,7 +341,7 @@ const [container] = useKeenSlider({
   },
   breakpoints: {
     "(max-width: 600px)": {
-      slides: { perView: 1.5, origin: "center", spacing: 15 },
+      slides: { perView: 1, origin: "center", spacing: 15 },
     },
     "(min-width: 601px)": {
       slides: { perView: 5, origin: "center", spacing: 15 },
@@ -359,43 +359,8 @@ const dataDialog = ref({
 const dataShow = ref([
   {
     avatar: "/images/giao-vien-van-anh.jpg",
-    point: 8.0,
-    name: "Vân Anh",
-    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
-    cer: "/images/cer-1.png",
-  },
-  {
-    avatar: "/images/giao-vien-van-anh.jpg",
-    point: 8.0,
-    name: "Vân Anh",
-    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
-    cer: "/images/cer-1.png",
-  },
-  {
-    avatar: "/images/giao-vien-van-anh.jpg",
-    point: 8.0,
-    name: "Vân Anh",
-    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
-    cer: "/images/cer-1.png",
-  },
-  {
-    avatar: "/images/giao-vien-van-anh.jpg",
-    point: 8.0,
-    name: "Vân Anh",
-    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
-    cer: "/images/cer-1.png",
-  },
-  {
-    avatar: "/images/giao-vien-van-anh.jpg",
-    point: 8.0,
-    name: "Vân Anh",
-    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
-    cer: "/images/cer-1.png",
-  },
-  {
-    avatar: "/images/giao-vien-van-anh.jpg",
-    point: 8.0,
-    name: "Vân Anh",
+    point: "8.0",
+    name: "Phạm Văn Bình",
     school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
     cer: "/images/cer-1.png",
   },
@@ -467,17 +432,17 @@ const dataShow = ref([
     transition: 0.3s;
   }
 
-  &:hover {
-    &::after {
-      opacity: 1;
-      visibility: visible;
-    }
+  // &:hover {
+  //   &::after {
+  //     opacity: 1;
+  //     visibility: visible;
+  //   }
 
-    .button-absolute {
-      opacity: 1;
-      visibility: visible;
-    }
-  }
+  //   .button-absolute {
+  //     opacity: 1;
+  //     visibility: visible;
+  //   }
+  // }
 
   .button-absolute {
     padding: 12px;

@@ -13,25 +13,25 @@
     </div>
     <div class="relative custom-flex">
       <div class="book-1 book">
-        <img src="https://asset.dolenglish.vn/cm9qhp5v6t7tz0711qxogjux8" />
+        <img src="/images/cer-thay-binh-2.jpg" />
       </div>
       <div class="book-2 book">
-        <img src="https://asset.dolenglish.vn/cm9qhp5vjt9190h0yk3e6gs2j" />
+        <img src="/images/cer-thay-binh.jpg" />
       </div>
       <div class="book-3 book">
-        <img src="https://asset.dolenglish.vn/cm9qhp5wmt7u70711cxjqz1w5" />
+        <img src="/images/cer-thay-binh.jpg" />
       </div>
       <div class="book-4 book">
-        <img src="https://asset.dolenglish.vn/cm9qhp5uvt9120h0ydhw1hynw" />
+        <img src="/images/cer-thay-binh-3.jpg" />
       </div>
       <div class="book book-5">
-        <img src="https://asset.dolenglish.vn/cm9qhp5umt7tu0711gkq0q3c3" />
+        <img src="/images/cer-thay-binh.jpg" />
       </div>
       <div class="book book-7">
-        <img src="https://asset.dolenglish.vn/cm9qhp5urt90z0h0yzjyiezxn" />
+        <img src="/images/cer-thay-binh.jpg" />
       </div>
       <div class="book book-6">
-        <img src="https://asset.dolenglish.vn/cm9qhp5wmt7u5071137aq8i8y" />
+        <img src="/images/cer-thay-binh.jpg" />
       </div>
     </div>
   </div>
@@ -122,7 +122,7 @@
 
 .book-1 {
   left: 9%;
-  bottom: -48%;
+  bottom: -120%;
   transform: rotateZ(-6.77deg);
 }
 
@@ -133,12 +133,12 @@
 }
 .book-3 {
   left: 33%;
-  bottom: -33%;
+  bottom: -90%;
   transform: rotateZ(1.97deg);
 }
 .book-4 {
   left: 58%;
-  bottom: -47%;
+  bottom: -80%;
   transform: rotateZ(3.71deg);
 }
 </style>
