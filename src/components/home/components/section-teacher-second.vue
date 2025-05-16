@@ -89,7 +89,7 @@
               <img
                 :src="item.cer"
                 alt="cer"
-                class="w-full h-full object-contain"
+                class="w-full lg:h-[unset] h-full lg:object-cover object-contain"
               />
             </div>
           </div>
