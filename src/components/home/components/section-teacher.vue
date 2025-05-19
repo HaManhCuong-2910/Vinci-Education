@@ -18,10 +18,12 @@
           :key="index"
           class="keen-slider__slide"
         >
-          <div
-            class="w-full rounded-2xl overflow-hidden relative aspect-[251/314] watch-result"
-          >
-            <img :src="item.avatar" alt="teacher" class="w-full h-full" />
+          <div class="w-full rounded-2xl overflow-hidden relative watch-result">
+            <img
+              :src="item.avatar"
+              alt="teacher"
+              class="w-full h-full object-contain"
+            />
             <div
               class="absolute bottom-3 left-3 bg-[#21262D] bg-opacity-40 backdrop-blur-[32px] py-[6px] px-3 flex items-center space-x-1 rounded-xl"
             >
@@ -344,6 +346,9 @@ const [container] = useKeenSlider({
       slides: { perView: 1, origin: "center", spacing: 15 },
     },
     "(min-width: 601px)": {
+      slides: { perView: 1, origin: "center", spacing: 15 },
+    },
+    "(min-width: 1024px)": {
       slides: { perView: 5, origin: "center", spacing: 15 },
     },
   },
@@ -361,7 +366,7 @@ const dataShow = ref([
     avatar: "/images/giao-vien-van-anh.jpg",
     point: "8.0",
     name: "Phạm Văn Bình",
-    school: "Kinh tế đối ngoại - ĐH Ngoại Thương",
+    school: "Giám đốc Global Education",
     cer: "/images/cer-1.png",
   },
 ]);

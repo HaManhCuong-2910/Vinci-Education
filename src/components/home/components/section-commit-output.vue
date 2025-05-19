@@ -34,8 +34,9 @@
         </div>
         <h3 class="text-2xl font-bold text-black-400 mt-4">Trợ Giảng 1-1</h3>
         <p class="text-black-300 mt-3">
-          Trợ giảng kèm riêng 1:1 cho những bạn thi lần đầu kém, cải thiện điểm
-          số ở đợt thi sau
+          Trợ giảng kèm riêng 1-1 trực tiếp tham gia các buổi cùng Giảng viên để
+          nắm rõ kiến thức học viên cần bổ trợ và giúp các bạn nắm được sự tự
+          tin thi đỗ đại học top 1
         </p>
       </div>
       <div

@@ -1,10 +1,10 @@
 <template>
   <div
-    class="bg-[#F5F9F7] border border-[#AECFBB] rounded-2xl p-10 relative conatiner-card lg:h-[400px] h-[473px] overflow-hidden"
+    class="bg-[#F5F9F7] border border-[#AECFBB] rounded-2xl p-10 relative conatiner-card lg:h-[400px] h-[550px] overflow-hidden"
   >
     <div class="max-w-[312px]">
       <p class="text-2xl font-bold text-black-400">
-        Phương pháp Tư duy Bintest
+        Phương pháp Tư duy Bintest by Thầy Phạm Văn Bình
       </p>
       <p class="text-base mt-2 text-black-300">
         Phương pháp giúp học Tiếng Anh một cách logic và bản chất do Global

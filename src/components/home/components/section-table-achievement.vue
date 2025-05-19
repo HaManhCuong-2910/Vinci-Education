@@ -15,10 +15,10 @@
           <p
             class="text-2xl font-medium text-black-400 lg:text-end text-center"
           >
-            250+ học viên
+            1500+ học viên
           </p>
           <p class="mt-1 text-black-300 lg:text-end text-center">
-            có kết quả trên 8.0 IELTS
+            có kết quả đỗ đại học Top 1 Ngoại thương , Bách Khoa ,..
           </p>
         </div>
       </div>

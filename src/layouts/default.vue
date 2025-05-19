@@ -14,7 +14,11 @@
     </div>
   </el-backtop>
 
-  <a href="/" target="_blank" class="fixed right-4 z-[10000] bottom-[140px]">
+  <a
+    href="https://zalo.me/0919108144"
+    target="_blank"
+    class="fixed right-4 z-[10000] bottom-[140px]"
+  >
     <svg
       width="45"
       height="45"
@@ -64,7 +68,7 @@
     </svg>
   </a>
   <a
-    href="https://m.me/dolenglish.ieltsdinhluc"
+    href="https://www.facebook.com/people/Trung-t%C3%A2m-%C3%B4n-thi-%C4%90%E1%BA%A1i-H%E1%BB%8Dc-Global-Education/61576575443542/"
     target="_blank"
     class="fixed right-4 z-[10000] bottom-[80px]"
   >

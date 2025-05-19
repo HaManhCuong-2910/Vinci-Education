@@ -4,18 +4,26 @@
       <img src="/images/logo.jpg" alt="logo" class="w-32 rounded-3xl" />
       <div class="grid lg:grid-cols-3 grid-cols-2 lg:gap-20 gap-10 mt-8">
         <div class="col-span-2 lg:col-span-1">
-          <on-tab-footer :title="'CƠ SỞ TẠI TPHCM (10)'" :data="dataAddress" />
+          <on-tab-footer :title="'CƠ SỞ TẠI TPHCM (1)'" :data="dataAddress" />
           <div class="mt-10">
             <on-tab-footer
-              :title="'CƠ SỞ TẠI Hà nội (2)'"
+              :title="'CƠ SỞ TẠI Hà nội (1)'"
               :data="dataAddressHanoi"
+            />
+          </div>
+          <div class="mt-10">
+            <on-tab-footer
+              :title="'CƠ SỞ Hợp tác (1)'"
+              :data="dataAddressContact"
             />
           </div>
           <div class="mt-10">
             <on-tab-footer :title="'Thông tin liên hệ'" :data="dataContact" />
           </div>
           <div class="mt-10">
-            <p class="text-base font-bold text-white">Theo dõi DOL tại</p>
+            <p class="text-base font-bold text-white">
+              Theo dõi Global Education tại
+            </p>
             <div class="grid grid-cols-7 mt-4">
               <a
                 aria-label="facebook-logo"
@@ -50,12 +58,6 @@
             </div>
           </div>
         </div>
-        <div>
-          <on-tab-footer :title="'KHÓA HỌC IELTS'" :data="dataTutorial" />
-        </div>
-        <div>
-          <on-tab-footer :title="'KHÓA HỌC Khác'" :data="dataTutorial" />
-        </div>
       </div>
     </div>
   </footer>
@@ -89,65 +91,38 @@ const dataTutorial = ref([
     url: "/",
   },
 ]);
-const dataAddress = ref([
-  {
-    label: "Cơ sở 1:",
-    value: "Hẻm 458/14, 3 Tháng 2, P12, Q. 10, TP.HCM",
-    url: "https://goo.gl/maps/kHUJQ783tGJhckF66",
-  },
-  {
-    label: "Cơ sở 2:",
-    value: "302 Nguyễn Văn Đậu, P11, Q.Bình Thạnh, TP.HCM",
-    url: "https://goo.gl/maps/kHUJQ783tGJhckF66",
-  },
-  {
-    label: "Cơ sở 3:",
-    value: "24A Bàu Cát 2, Tân Bình, P.14, TP.HCM",
-    url: "https://goo.gl/maps/kHUJQ783tGJhckF66",
-  },
-  {
-    label: "Cơ sở 1:",
-    value: "Hẻm 458/14, 3 Tháng 2, P12, Q. 10, TP.HCM",
-    url: "https://goo.gl/maps/kHUJQ783tGJhckF66",
-  },
-  {
-    label: "Cơ sở 1:",
-    value: "Hẻm 458/14, 3 Tháng 2, P12, Q. 10, TP.HCM",
-    url: "https://goo.gl/maps/kHUJQ783tGJhckF66",
-  },
-  {
-    label: "Cơ sở 1:",
-    value: "Hẻm 458/14, 3 Tháng 2, P12, Q. 10, TP.HCM",
-    url: "https://goo.gl/maps/kHUJQ783tGJhckF66",
-  },
-  {
-    label: "Cơ sở 1:",
-    value: "Hẻm 458/14, 3 Tháng 2, P12, Q. 10, TP.HCM",
-    url: "https://goo.gl/maps/kHUJQ783tGJhckF66",
-  },
-]);
+
 const dataAddressHanoi = ref([
   {
     label: "Cơ sở 1:",
-    value: "Hẻm 458/14, 3 Tháng 2, P12, Q. 10, TP.HCM",
-    url: "https://goo.gl/maps/kHUJQ783tGJhckF66",
+    value: "43/290 kim mã ba đình, HN",
+    url: "https://maps.app.goo.gl/3Kj1LK6b4iPiXGXSA",
   },
+]);
+const dataAddress = ref([
   {
-    label: "Cơ sở 2:",
-    value: "302 Nguyễn Văn Đậu, P11, Q.Bình Thạnh, TP.HCM",
-    url: "https://goo.gl/maps/kHUJQ783tGJhckF66",
+    label: "Cơ sở 1:",
+    value: "121 cô bắc cô giang q1",
+    url: "https://maps.app.goo.gl/chLRWXMegHFxEfm19",
+  },
+]);
+const dataAddressContact = ref([
+  {
+    label: "Cơ sở 1:",
+    value: "76 trần bá giao ,p5 , hcm",
+    url: "https://maps.app.goo.gl/sazxYg6H5Xy9zEBYA",
   },
 ]);
 const dataContact = ref([
   {
     label: "Inbox:",
-    value: "m.me/dolenglish.ieltsdinhluc",
-    url: "/",
+    value: "Page Trung tâm ôn thi Đại học - Global Education",
+    url: "https://www.facebook.com/share/18ktRSYFWr/?mibextid=wwXIfr",
   },
   {
     label: "Hotline:",
-    value: "1800 96 96 39",
-    url: "tel:1800 96 96 39",
+    value: "0919108144",
+    url: "tel:0919108144",
   },
 ]);
 </script>

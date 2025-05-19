@@ -35,19 +35,19 @@
 const dataShow = ref([
   {
     thumbnail: "/images/tin-tuc.jpg",
-    title: "Tập Huấn",
+    title: "Diễn giả Phạm Văn Bình",
     description:
       "Tháng 5/2025 , Tại trường Đại Học Ngoại Ngữ - Đại Học Quốc Gia Hà Nội , Giám đốc Global Education - Anh Phạm Văn Bình đã chính thức là diễn giả tại sự kiện cùng sinh viên trường đại học Ngoại Ngữ",
   },
   {
     thumbnail: "/images/tin-tuc-2.jpg",
-    title: "Tập Huấn",
+    title: "Diễn giả Phạm Văn Bình",
     description:
       "Tháng 5/2025 , Tại trường Đại Học Ngoại Ngữ - Đại Học Quốc Gia Hà Nội , Giám đốc Global Education - Anh Phạm Văn Bình đã chính thức là diễn giả tại sự kiện cùng sinh viên trường đại học Ngoại Ngữ",
   },
   {
     thumbnail: "/images/tin-tuc-3.jpg",
-    title: "Tập Huấn",
+    title: "Diễn giả Phạm Văn Bình",
     description:
       "Tháng 5/2025 , Tại trường Đại Học Ngoại Ngữ - Đại Học Quốc Gia Hà Nội , Giám đốc Global Education - Anh Phạm Văn Bình đã chính thức là diễn giả tại sự kiện cùng sinh viên trường đại học Ngoại Ngữ",
   },
