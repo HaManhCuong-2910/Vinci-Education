@@ -3,7 +3,7 @@
     <div class="container mx-auto">
       <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 items-center">
         <h3
-          class="lg:text-4xl text-3xl text-center font-bold text-black-400 mt-2"
+          class="lg:text-4xl text-3xl lg:text-left text-center font-bold text-black-400 mt-2"
         >
           Học viên nói gì khi học <br />
           IELTS tại Global Education

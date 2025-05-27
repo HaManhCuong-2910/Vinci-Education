@@ -14,6 +14,9 @@
     <section-platform />
     <section-evaluate />
     <section-event />
+    <client-only>
+      <section-facilities />
+    </client-only>
     <section-register />
   </div>
 </template>

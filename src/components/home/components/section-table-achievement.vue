@@ -3,9 +3,13 @@
     <div class="container mx-auto">
       <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-4 gap-12 items-center">
         <div>
-          <img src="/images/crown.svg" alt="crown" class="w-14 mx-auto" />
+          <img
+            src="/images/crown.svg"
+            alt="crown"
+            class="w-14 lg:mx-0 mx-auto"
+          />
           <h3
-            class="lg:text-4xl text-3xl font-bold text-black-400 mt-2 text-center"
+            class="lg:text-4xl text-3xl font-bold text-black-400 mt-2 lg:text-left text-center"
           >
             Bảng vàng thành tích <br />
             của học viên Global Education
