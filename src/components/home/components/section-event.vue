@@ -5,8 +5,8 @@
         <h3
           class="lg:text-4xl text-3xl lg:text-left text-center font-bold text-black-400 mt-2"
         >
-          Sự kiện tiêu biểu <br />
-          của Global Education
+          Giám đốc Phạm Văn Bình truyền cảm hứng tại sự kiện quốc tế Global
+          Education – nơi quy tụ những tư duy giáo dục đột phá toàn cầu.
         </h3>
         <div>
           <p

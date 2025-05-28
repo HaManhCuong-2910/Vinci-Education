@@ -7,7 +7,7 @@
           <img
             src="/images/icon-subtitle.png"
             alt="icon"
-            class="absolute -top-[8px] -left-4 w-4"
+            class="absolute -top-[8px] -left-2 w-4"
           />
         </p>
         <h3 class="text-4xl text-primary mt-5 font-bold">

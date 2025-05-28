@@ -17,9 +17,9 @@
               :data="dataAddressContact"
             />
           </div>
-          <div class="mt-10">
-            <on-tab-footer :title="'Thông tin liên hệ'" :data="dataContact" />
-          </div>
+        </div>
+        <div class="lg:col-span-1 col-span-2">
+          <on-tab-footer :title="'Thông tin liên hệ'" :data="dataContact" />
           <div class="mt-10">
             <p class="text-base font-bold text-white">
               Theo dõi Global Education tại
@@ -64,34 +64,6 @@
 </template>
 
 <script setup lang="ts">
-const dataTutorial = ref([
-  {
-    label: "",
-    value: "IELTS Intensive 0",
-    url: "/",
-  },
-  {
-    label: "",
-    value: "IELTS Intensive 1",
-    url: "/",
-  },
-  {
-    label: "",
-    value: "IELTS Intensive 2",
-    url: "/",
-  },
-  {
-    label: "",
-    value: "IELTS Intensive 3",
-    url: "/",
-  },
-  {
-    label: "",
-    value: "IELTS Intensive 4",
-    url: "/",
-  },
-]);
-
 const dataAddressHanoi = ref([
   {
     label: "Cơ sở 1:",

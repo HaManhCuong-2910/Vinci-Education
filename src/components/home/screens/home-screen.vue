@@ -13,10 +13,12 @@
     <section-difference-value />
     <section-platform />
     <section-evaluate />
-    <section-event />
     <client-only>
       <section-facilities />
+      <section-class />
+      <section-feedback />
     </client-only>
+    <section-event />
     <section-register />
   </div>
 </template>

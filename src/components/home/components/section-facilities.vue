@@ -1,5 +1,5 @@
 <template>
-  <section id="hinh-thuc-hoc" class="lg:py-28 py-20 container mx-auto">
+  <section id="hinh-thuc-hoc" class="lg:py-28 pb-20 container mx-auto">
     <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-8 gap-6">
       <div>
         <p class="text-lg uppercase text-black-300 relative w-fit pl-2">
@@ -7,15 +7,16 @@
           <img
             src="/images/icon-subtitle.png"
             alt="icon"
-            class="absolute -top-[8px] -left-4 w-4"
+            class="absolute -top-[8px] -left-2 w-4"
           />
         </p>
         <h3 class="text-4xl text-primary mt-5 font-bold">
-          Cở sở vật chất tại Global Education
+          Cơ sở vật chất đạt chuẩn quốc tế ISO 41001 tại Global Education
         </h3>
 
         <p class="text-black-300 mt-3">
-          Nằm ngay giữa trung tâm thành phố Hà Nội phố 290 Kim Mã, Quận Ba Đình
+          Nằm ngay giữa trung tâm thành phố Hà Nội phố 290 Kim Mã , Quận Ba Đình
+          ngay sát Lotte Tower và Vincom Metropolis
         </p>
         <button-common
           :class="'w-[293px] max-w-full !h-[53px] shadow-btn duration-300 hover:scale-105 !rounded-2xl mt-8'"
