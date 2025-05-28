@@ -150,7 +150,7 @@
         </li>
       </ul>
     </div>
-    <div
+    <!-- <div
       class="absolute hidden lg:block top-0 right-0 min-h-full max-h-[320px] max-w-[100vw]"
     >
       <div class="min-w-[120%] w-full animation">
@@ -166,7 +166,7 @@
         />
       </div>
     </div>
-    <div class="gradientWrp"></div>
+    <div class="gradientWrp"></div> -->
   </section>
 </template>
 
