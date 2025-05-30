@@ -1,9 +1,13 @@
 <template>
   <div>
     <section-intro-home />
-    <section-list-study-education />
+    <client-only>
+      <section-list-study-education />
+    </client-only>
     <section-news />
-    <section-table-achievement />
+    <client-only>
+      <section-table-achievement />
+    </client-only>
     <section-commit-output />
     <section-roadmap-exam />
     <client-only>

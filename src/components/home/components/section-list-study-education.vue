@@ -1,21 +1,101 @@
 <template>
-  <section class="bg-custom">
-    <div class="lg:bg-white lg:container lg:mx-auto box-shadow lg:p-9">
-      <img
-        src="/images/thay-giao-binh.jpg"
-        alt="section"
-        class="lg:w-[600px] w-full mx-auto hover:scale-105 duration-300 cursor-pointer"
-        @click="isShowAdviseDialog = true"
-      />
-    </div>
-  </section>
+  <div class="container mx-auto mt-12">
+    <Swiper
+      :modules="modules"
+      :autoplay="{ delay: 800 }"
+      :spaceBetween="20"
+      :breakpoints="{
+        '640': {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        '768': {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        '1024': {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+      }"
+      :loop="true"
+    >
+      <SwiperSlide>
+        <div
+          class="w-full rounded-2xl overflow-hidden relative watch-result h-full"
+        >
+          <img
+            src="/images/co-so-vat-chat-2.jpg"
+            alt="teacher"
+            class="w-full h-full object-contain"
+          />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div
+          class="w-full rounded-2xl overflow-hidden relative watch-result h-full"
+        >
+          <img
+            src="/images/gt-1.jpg"
+            alt="teacher"
+            class="w-full h-full object-contain"
+          />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div
+          class="w-full rounded-2xl overflow-hidden relative watch-result h-full"
+        >
+          <img
+            src="/images/gt-2.jpg"
+            alt="teacher"
+            class="w-full h-full object-contain"
+          />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div
+          class="w-full rounded-2xl overflow-hidden relative watch-result h-full"
+        >
+          <img
+            src="/images/gt-3.jpg"
+            alt="teacher"
+            class="w-full h-full object-contain"
+          />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div
+          class="w-full rounded-2xl overflow-hidden relative watch-result h-full"
+        >
+          <img
+            src="/images/gt-4.jpg"
+            alt="teacher"
+            class="w-full h-full object-contain"
+          />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div
+          class="w-full rounded-2xl overflow-hidden relative watch-result h-full"
+        >
+          <img
+            src="/images/gt-5.jpg"
+            alt="teacher"
+            class="w-full h-full object-contain"
+          />
+        </div>
+      </SwiperSlide>
+    </Swiper>
+  </div>
 </template>
 
 <script setup lang="ts">
-import { useAdviseStore } from "../store/dialog-advise.store";
+import "swiper/css/navigation";
+import type { PropType } from "vue";
+import { Autoplay, Navigation } from "swiper/modules";
 
-const adviseStore = useAdviseStore();
-const { isShowAdviseDialog } = storeToRefs(adviseStore);
+const modules = [Autoplay, Navigation];
 </script>
 
 <style scoped lang="scss">

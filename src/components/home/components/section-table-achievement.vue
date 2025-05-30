@@ -1,5 +1,5 @@
 <template>
-  <div id="bang-vang-thanh-tich" class="lg:py-28 py-20">
+  <div id="bang-vang-thanh-tich" class="lg:py-24 py-16">
     <div class="container mx-auto">
       <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-4 gap-12 items-center">
         <div>
@@ -27,98 +27,43 @@
         </div>
       </div>
 
-      <div class="mt-10 grid lg:grid-cols-4 grid-cols-1 gap-4">
-        <div v-for="(item, index) in dataShow" :key="index">
-          <div
-            class="relative border-custom rounded-3xl aspect-[258/192] watch-result overflow-hidden"
-          >
-            <img :src="item.avatar" alt="thanh-tich" class="w-full h-full" />
-            <!-- <button
-              class="button-absolute"
-              @click="
-                () => {
-                  dataDialog.isShowDialog = true;
-                  dataDialog.name = item.name;
-                  dataDialog.school = item.school;
-                  dataDialog.cer = item.cer;
-                }
-              "
-            >
-              Xem result
-              <img
-                src="/images/arrow-right.svg"
-                alt="arrow-right"
-                class="w-4"
-              />
-            </button> -->
-            <div
-              class="desc absolute bg-white bg-opacity-80 rounded-xl pt-2 px-4 pb-[14px] bottom-3 backdrop-blur-[32px] left-3"
-            >
-              <p class="text-primary text-3xl font-bold">{{ item.point }}</p>
-              <p class="font-bold mt-1">IELTS</p>
+      <div class="mt-10">
+        <Swiper
+          :modules="modules"
+          :autoplay="{ delay: 800 }"
+          :spaceBetween="20"
+          :breakpoints="{
+            '640': {
+              slidesPerView: 4,
+              spaceBetween: 20,
+            },
+            '768': {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+            '1024': {
+              slidesPerView: 4,
+              spaceBetween: 50,
+            },
+          }"
+          :loop="true"
+        >
+          <SwiperSlide v-for="(item, index) in dataShow" :key="index">
+            <div class="relative rounded-3xl aspect-[258/192] overflow-hidden">
+              <img :src="item.avatar" alt="thanh-tich" class="w-full h-full" />
             </div>
-          </div>
-          <div class="mt-4 px-4">
-            <p class="text-2xl font-semibold">{{ item.name }}</p>
-            <p class="text-black-300 line-clamp-1 mt-2">
-              {{ item.school }}
-            </p>
-          </div>
-        </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   </div>
-
-  <el-dialog
-    v-model="dataDialog.isShowDialog"
-    align-center
-    :show-close="false"
-    :width="'500px'"
-    :header-class="'!pb-0'"
-    :class="'max-w-[90%] !rounded-xl'"
-    :lock-scroll="false"
-  >
-    <div class="relative">
-      <button class="button-close" @click="dataDialog.isShowDialog = false">
-        <svg
-          size="24"
-          width="24"
-          height="24"
-          class="Icon__StyledIcon-sc-17nvvtn-0 hhUpwk"
-          viewBox="0 0 24 24"
-          preserveAspectRatio="xMidYMid meet"
-        >
-          <path
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-miterlimit="10"
-            stroke-width="2"
-            d="M17.6 6.4L6.4 17.6m11.2 0L6.4 6.4"
-          ></path>
-        </svg>
-      </button>
-      <img :src="dataDialog.cer" loading="lazy" alt="image" />
-      <div class="mt-4">
-        <p class="text-2xl font-semibold text-black-400">
-          {{ dataDialog.name }}
-        </p>
-        <p class="text-black-300 line-clamp-1 mt-1">
-          {{ dataDialog.school }}
-        </p>
-      </div>
-    </div>
-  </el-dialog>
 </template>
 
 <script setup lang="ts">
-const dataDialog = ref({
-  isShowDialog: false,
-  name: "",
-  school: "",
-  cer: "",
-});
+import "swiper/css/navigation";
+import { Autoplay, Navigation } from "swiper/modules";
 
+const modules = [Autoplay, Navigation];
 const dataShow = ref([
   {
     avatar: "/images/trinh-khanh-vy.jpg",

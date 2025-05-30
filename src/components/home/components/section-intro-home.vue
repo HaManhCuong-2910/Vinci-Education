@@ -6,7 +6,7 @@
       <div>
         <div class="relative w-fit">
           <h1 class="lg:text-4xl text-3xl text-primary font-bold">
-            Global Education
+            Global Edu
           </h1>
           <img
             src="/images/icon-header.svg"
@@ -17,26 +17,33 @@
         <h2
           class="lg:text-4xl text-3xl !leading-[45px] font-bold mt-3 text-black-400 relative"
         >
-          Tự hào
-          <span class="lg:text-4xl text-3xl font-bold highlight">Trung </span>
-          <span class="lg:text-4xl text-3xl font-bold highlight">Tâm </span>
-          <span class="lg:text-4xl text-3xl font-bold highlight">Ôn </span>
-          <span class="lg:text-4xl text-3xl font-bold highlight">Đại </span>
-          <span class="lg:text-4xl text-3xl font-bold highlight">Học </span>
-          <br />
-          hàng đầu trường Top 1
+          <span class="lg:text-4xl text-3xl font-bold highlight">Dẫn </span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">đầu </span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">ôn </span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">luyện </span>
+          <span
+            class="lg:text-4xl text-3xl !leading-[45px] font-bold mt-3 text-black-400 ml-1 mr-1"
+          >
+            -
+          </span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">Vững </span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">bước </span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">tương </span>
+          <span class="lg:text-4xl text-3xl font-bold highlight">lai </span>
         </h2>
         <ul class="lg:mt-8 mt-5">
-          <li class="flex space-x-2 items-center">
-            <img src="/images/icon-tick.svg" alt="tick" class="w-5" />
+          <li class="flex space-x-2 items-start">
+            <img src="/images/icon-tick.svg" alt="tick" class="w-5 mt-1" />
             <p class="lg:text-xl text-base text-black-300">
-              Độc quyền phương pháp logical thinking
+              Trung tâm luyện thi Đại học hàng đầu Việt Nam – Nơi chắp cánh ước
+              mơ
             </p>
           </li>
-          <li class="flex space-x-2 items-center mt-2">
-            <img src="/images/icon-tick.svg" alt="tick" class="w-5" />
+          <li class="flex space-x-2 items-start mt-2">
+            <img src="/images/icon-tick.svg" alt="tick" class="w-5 mt-1" />
             <p class="lg:text-xl text-base text-black-300">
-              Bintest by Phạm Văn Bình
+              Với nhiều năm kinh nghiệm, chúng tôi tự hào là trung tâm luyện thi
+              Đại học được hàng ngàn học sinh và phụ huynh tin chọn
             </p>
           </li>
         </ul>
