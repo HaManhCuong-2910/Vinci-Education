@@ -6,23 +6,25 @@
     </client-only>
     <section-news />
     <client-only>
-      <section-table-achievement />
-    </client-only>
-    <section-commit-output />
-    <section-roadmap-exam />
-    <client-only>
+      <section-facilities />
       <section-teacher />
       <section-teacher-second />
     </client-only>
-    <section-difference-value />
-    <section-platform />
-    <section-evaluate />
+    <section-commit-output />
     <client-only>
-      <section-facilities />
-      <section-class />
       <section-feedback />
     </client-only>
     <section-event />
+    <section-difference-value />
+    <client-only>
+      <section-table-achievement />
+    </client-only>
+    <section-roadmap-exam />
+    <section-platform />
+    <section-evaluate />
+    <client-only>
+      <section-class />
+    </client-only>
     <section-register />
   </div>
 </template>

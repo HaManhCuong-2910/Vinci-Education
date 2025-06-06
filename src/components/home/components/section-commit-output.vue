@@ -14,6 +14,23 @@
       <p class="lg:text-4xl text-3xl text-primary font-bold text-center mt-2">
         Yên Tâm Học Tại Global Education Với Cam Kết Từ Chúng Tôi
       </p>
+      <ul>
+        <li class="text-black-300 mt-4">
+          🎓 Cam kết đầu ra – Hoàn 100% học phí nếu không đạt!
+        </li>
+        <li class="text-black-300 mt-3">
+          Global Education cam kết hoàn 100% học phí nếu học viên không đạt mức
+          điểm như đã cam kết, với điều kiện không vi phạm nội quy trung tâm
+          trong suốt quá trình học và tham gia đủ 70% khoá học
+        </li>
+        <li class="text-black-300 mt-3">✅ Học thật – Cam kết thật</li>
+        <li class="text-black-300 mt-3">
+          ✅ An tâm đồng hành chinh phục mục tiêu 8+, 9+ và 10 điểm.
+        </li>
+        <li class="text-black-300 mt-3">
+          ✅ Minh bạch, rõ ràng – Không đạt hoàn tiền!
+        </li>
+      </ul>
     </div>
 
     <div class="lg:container mx-auto">

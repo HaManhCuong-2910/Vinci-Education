@@ -4,11 +4,20 @@
   >
     <div class="p-4">
       <p class="text-2xl font-bold text-black-400">
-        Nền tảng công nghệ toàn diện và đột phá
+        🚀 Nền tảng công nghệ học tập toàn diện & đột phá tại Global Education
       </p>
-      <ul class="grid grid-cols-2 gap-2 mt-5">
-        <li v-for="item in 10" :key="item" class="flex space-x-1 items-center">
+      <p class="text-black-300 mt-2">
+        Global Education tích hợp nền tảng công nghệ hiện đại vào toàn bộ lộ
+        trình học, mang đến trải nghiệm học tập thông minh – cá nhân hóa – hiệu
+        quả vượt trội.
+      </p>
+      <p class="text-black-300 mt-2">
+        🎯 Công nghệ là công cụ – Hiệu quả là mục tiêu
+      </p>
+      <ul class="mt-5">
+        <li v-for="item in data" :key="item" class="flex items-center mt-2">
           <svg
+            class="min-w-[1em]"
             width="1em"
             height="1em"
             viewBox="0 0 20 20"
@@ -24,7 +33,7 @@
               stroke-linejoin="round"
             ></path>
           </svg>
-          <p class="text-base">Global education</p>
+          <p class="text-sm ml-2">{{ item }}</p>
         </li>
       </ul>
     </div>
@@ -134,7 +143,15 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const data = ref([
+  "Theo dõi tiến độ học tập theo thời gian thực",
+  "Tự động đánh giá, phân tích điểm mạnh – điểm yếu",
+  "Lộ trình học tối ưu hóa theo từng năng lực cá nhân",
+  "Tích hợp bộ đề chuẩn, luyện thi mô phỏng như thật",
+  "Hỗ trợ học 1:1 qua hệ thống trợ giảng trực tuyến",
+]);
+</script>
 
 <style scoped lang="scss">
 @import "~/assets/scss/responsive.scss";

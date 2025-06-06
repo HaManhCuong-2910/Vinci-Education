@@ -5,18 +5,45 @@
         <h3
           class="lg:text-4xl text-3xl lg:text-left text-center font-bold text-black-400 mt-2"
         >
-          Giám đốc Phạm Văn Bình truyền cảm hứng tại sự kiện quốc tế Global
-          Education – nơi quy tụ những tư duy giáo dục đột phá toàn cầu.
+          🌟 Sự kiện quốc tế độc quyền quy tụ hơn 35,000 khán giả – Hội thảo sự
+          kiện Global Education nơi Giám đốc Phạm Văn Bình truyền cảm hứng về
+          giáo dục tương lai 🌍
         </h3>
         <div>
-          <p
-            class="lg:text-2xl text-base font-medium text-black-400 lg:text-end text-center"
-          >
-            1000+ buổi chia sẻ
+          <p class="lg:text-2xl text-base font-medium lg:text-end text-center">
+            Với sự góp mặt của hơn 35,000 khán giả toàn cầu, sự kiện đẳng cấp
+            Global Education đã trở thành một sân khấu lý tưởng để Giám đốc Phạm
+            Văn Bình chia sẻ những góc nhìn đột phá về giáo dục trong kỷ nguyên
+            số.
           </p>
-          <p class="mt-1 text-black-300 lg:text-end text-center">
-            Được các trường Đại học & Trung học mời tham dự
+          <p class="mt-3 lg:text-end text-center">
+            Bằng tinh thần dẫn dắt đổi mới và tư duy khai phóng, Thầy Bình không
+            chỉ đại diện cho tiếng nói Việt Nam mà còn truyền cảm hứng mạnh mẽ
+            về cách chúng ta chuẩn bị cho thế hệ trẻ bước vào một thế giới nhiều
+            biến động, sáng tạo và kết nối.
           </p>
+          <ul>
+            <li class="mt-4">✅ 35,000+ khán giả toàn cầu</li>
+            <li class="mt-2">
+              ✅ Hàng trăm lãnh đạo giáo dục và chuyên gia đổi mới
+            </li>
+            <li class="mt-2">
+              ✅ Một tầm nhìn – Một sứ mệnh – Một thế hệ tương lai bền vững
+            </li>
+            <li class="mt-2">
+              "Giáo dục không chỉ là tri thức, mà là nền tảng để con người sống
+              tử tế, tự tin và tạo ra giá trị cho cộng đồng." – Phạm Văn Bình
+            </li>
+            <li class="mt-2">
+              Với kinh nghiệm dày dặn và tầm nhìn chiến lược, Thầy Bình chia sẻ
+              những sáng kiến tiên phong mà thầy và đội ngũ của mình đã thực
+              hiện nhằm nâng tầm chất lượng giáo dục.
+            </li>
+            <li class="mt-2">
+              "Giáo dục không chỉ là truyền đạt kiến thức, mà là đánh thức tiềm
+              năng và khơi nguồn đam mê học hỏi suốt đời.” – Phạm Văn Bình
+            </li>
+          </ul>
         </div>
       </div>
 

@@ -195,6 +195,21 @@
             <p class="text-black-300 mt-2 text-sm">
               {{ item.school }}
             </p>
+            <ul>
+              <li class="text-black-300 mt-2 text-sm">
+                🎯 IELTS 8.0 Overall , 8.5 Listening và 8.5 Reading đỗ xét tuyển
+                kì thi tư duy Đại Học Bách Khoa Hà Nội với thành tích cao
+              </li>
+              <li class="text-black-300 mt-2 text-sm">
+                🔥 Từng là học viên xuất sắc, hiện là trợ giảng tận tâm, luôn
+                đồng hành cùng học viên trong từng buổi học, giải đáp nhanh – hỗ
+                trợ sát sao – chia sẻ kinh nghiệm ôn luyện thực tế.
+              </li>
+              <li class="text-black-300 mt-2 text-sm">
+                💬 "Giúp học viên hiểu bài và tiến bộ từng ngày chính là niềm
+                vui lớn nhất của mình!"
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -232,7 +247,7 @@ const dataShow = ref([
     avatar: "/images/tro-giang-le-minh-duc.jpg",
     point: 8.5,
     name: "Lê Minh Đức",
-    school: "Trợ giảng Global Education by Phạm Văn Bình 8.0 Ielts",
+    school: "Trợ giảng Global Education",
     cer: "/images/cer-le-minh-duc.jpg",
   },
 ]);

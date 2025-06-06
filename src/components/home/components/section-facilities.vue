@@ -1,5 +1,5 @@
 <template>
-  <section id="hinh-thuc-hoc" class="lg:py-28 pb-20 container mx-auto">
+  <section id="hinh-thuc-hoc" class="py-28 container mx-auto">
     <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-8 gap-6">
       <div>
         <p class="text-lg uppercase text-black-300 relative w-fit pl-2">
@@ -14,9 +14,49 @@
           Cơ sở vật chất đạt chuẩn quốc tế ISO 41001 tại Global Education
         </h3>
 
-        <p class="text-black-300 mt-3">
-          Nằm ngay giữa trung tâm thành phố Hà Nội phố 290 Kim Mã , Quận Ba Đình
-          ngay sát Lotte Tower và Vincom Metropolis
+        <p class="mt-3">
+          Tự hào sở hữu hệ thống cơ sở vật chất hiện đại, được xây dựng và vận
+          hành theo tiêu chuẩn quản lý cơ sở hạ tầng quốc tế ISO 41001 – tiêu
+          chuẩn hàng đầu dành cho các tổ chức giáo dục chất lượng cao.
+        </p>
+        <ul>
+          <li class="mt-3">
+            ✅ Phòng học thông minh, trang bị bảng tương tác, máy chiếu chất
+            lượng cao
+          </li>
+          <li class="mt-2">
+            ✅ Không gian học tập tối ưu, yên tĩnh, ánh sáng chuẩn, ghế ngồi
+            chuẩn công thái học
+          </li>
+          <li class="mt-2">
+            ✅ Hệ thống an toàn – vệ sinh – tiện ích khép kín, mang lại trải
+            nghiệm học tập chuẩn quốc tế
+          </li>
+          <li class="mt-2">
+            ✅ Quản lý vận hành chuyên nghiệp, đảm bảo hiệu suất, an toàn và sự
+            hài lòng tối đa cho học viên
+          </li>
+          <li class="mt-2">
+            🎯 Chúng tôi tin rằng một môi trường học tập chất lượng chính là nền
+            móng vững chắc để học sinh phát huy tối đa năng lực và vươn tới
+            thành công!
+          </li>
+        </ul>
+        <h3 class="mt-5 text-2xl text-primary font-bold">
+          Vị trí đắc địa – Trung tâm giáo dục giữa lòng thủ đô
+        </h3>
+        <p class="mt-3">
+          Global Education tọa lạc tại 43/290 Kim Mã, Quận Ba Đình, một trong
+          những tuyến phố sầm uất và chiến lược bậc nhất Hà Nội.
+        </p>
+        <p class="mt-3">
+          ✨ Liền kề Lotte Tower và Vincom Metropolis, nơi hội tụ tinh hoa giáo
+          dục – công nghệ – hiện đại, mang đến không gian học tập đẳng cấp, tiện
+          nghi và kết nối thuận tiện từ mọi khu vực trong thành phố.
+        </p>
+        <p class="mt-3">
+          Học tập trong môi trường đạt chuẩn ISO – Vững nền tảng, chắc tương
+          lai!
         </p>
         <button-common
           :class="'w-[293px] max-w-full !h-[53px] shadow-btn duration-300 hover:scale-105 !rounded-2xl mt-8'"

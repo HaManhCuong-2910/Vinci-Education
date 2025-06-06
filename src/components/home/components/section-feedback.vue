@@ -1,14 +1,23 @@
 <template>
   <section class="lg:py-28 py-20 bg-yellow-300">
     <div class="container mx-auto">
-      <h3 class="lg:text-4xl text-3xl font-bold text-black-400 text-center">
+      <h3 class="lg:text-4xl text-3xl font-bold text-primary text-center">
         Feedback học viên
       </h3>
-      <!-- <p class="mt-4 text-center">
-        Giáo viên giỏi kiến thức và truyền đạt bằng phương pháp độc quyền thuộc
-        Global Education.<br />
-        Tận tâm với học viên khao khát cải tiến việc học tại Việt Nam <br />
-      </p> -->
+      <ul>
+        <li class="text-black-300 mt-4">
+          💬 Feedback học viên – Niềm tin được kiểm chứng
+        </li>
+        <li class="text-black-300 mt-3">
+          🌟 "Em từng mất gốc hoàn toàn môn Toán, nhưng nhờ phương pháp của
+          Global Education và sự kèm cặp sát sao từ thầy cô, em đã đạt 28.7 điểm
+          trong kỳ thi THPT Quốc gia. Một hành trình thực sự thay đổi tư duy và
+          kết quả!"
+        </li>
+        <li class="text-black-300 mt-3">
+          ✅ — Nguyễn Thị Mai Anh, Học sinh 2K6, đỗ Đại học Kinh tế Quốc dân
+        </li>
+      </ul>
     </div>
 
     <div class="mt-10">

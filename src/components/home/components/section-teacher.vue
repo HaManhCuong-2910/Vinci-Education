@@ -4,11 +4,39 @@
       <h3 class="lg:text-4xl text-3xl font-bold text-black-400 text-center">
         Đội ngũ giáo viên
       </h3>
-      <p class="mt-4 text-center">
-        Giáo viên giỏi kiến thức và truyền đạt bằng phương pháp độc quyền thuộc
-        Global Education.<br />
-        Tận tâm với học viên khao khát cải tiến việc học tại Việt Nam <br />
+      <p class="mt-4">
+        🌟 Đội ngũ giáo viên Global Education – Chuyên môn vững vàng, tâm huyết
+        dẫn đường
+        <br />
+        Tại Global Education, chúng tôi tự hào sở hữu đội ngũ giáo viên:
       </p>
+      <ul>
+        <li class="text-base mt-3">
+          ✅ Giỏi chuyên môn – Tốt nghiệp từ các trường đại học hàng đầu trong
+          và ngoài nước, nhiều thầy cô là tiến sĩ, thạc sĩ đến từ Đại học Quốc
+          gia Hà Nội và các cơ sở giáo dục uy tín.
+        </li>
+        <li class="text-base mt-2">
+          ✅ Phương pháp giảng dạy độc quyền – Áp dụng hệ thống Bintest giúp học
+          sinh học từ gốc, củng cố nền tảng và tiến bộ rõ rệt qua từng giai
+          đoạn.
+        </li>
+        <li class="text-base mt-2">
+          ✅ Tận tâm với từng học viên – Không chỉ là người dạy, mà còn là người
+          đồng hành, truyền cảm hứng và giúp học sinh vượt qua mọi giới hạn của
+          bản thân.
+        </li>
+        <li class="text-base mt-2">
+          ✅ Liên tục cập nhật – không ngừng cải tiến – Thường xuyên được tập
+          huấn chuyên môn và đổi mới phương pháp giảng dạy để phù hợp với định
+          hướng thi cử thực tế.
+        </li>
+        <li class="text-base mt-2">
+          🎯 Với đội ngũ giáo viên tại Global Education, mỗi buổi học là một
+          bước tiến vững chắc trên hành trình chinh phục 9+ THPT Quốc gia và
+          vươn tới Top 1 Đại học.
+        </li>
+      </ul>
     </div>
 
     <div class="mt-16">
