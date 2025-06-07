@@ -15,11 +15,9 @@
         </h3>
 
         <p class="text-black-300 mt-3">
-          Global Education vinh dự là nhà đồng hành độc quyền có nền tảng riêng
-          học trực tuyến 100% tương tác với giáo viên và được sự hỗ trợ 24/24
-          cùng trợ giảng . Giúp các bạn học sinh trải nghiệm chất lượng học
-          tuyệt đối đẳng cấp vươn tầm quốc tế và chính là giá trị để các em đỗ
-          đại học top 1
+          🎓 Global Education – Đối tác đồng hành độc quyền với nền tảng học
+          trực tuyến 100% tương tác thực, hỗ trợ 24/24 – Định chuẩn chất lượng
+          vươn tầm quốc tế
         </p>
         <button-common
           :class="'w-[293px] max-w-full !h-[53px] shadow-btn duration-300 hover:scale-105 !rounded-2xl mt-8'"

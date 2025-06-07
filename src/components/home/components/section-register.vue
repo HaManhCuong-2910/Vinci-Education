@@ -49,7 +49,7 @@
           </a>
         </li>
         <li class="mt-8">
-          <a href="tel:1800 96 96 39" class="flex items-center space-x-4">
+          <a href="tel:0919108144" class="flex items-center space-x-4">
             <div
               class="bg-[#F4F5F7] min-w-10 min-h-10 max-w-10 max-h-10 flex justify-center items-center rounded-xl"
             >
@@ -80,7 +80,7 @@
             <div>
               <p class="text-lg font-bold text-black-400">Gọi điện liên hệ</p>
               <p class="text-sm font-medium text-black-300">
-                Liên hệ Global Education qua số hotline miễn phí: 1800 96 96 39
+                Liên hệ Global Education qua số hotline miễn phí: 0919108144
               </p>
             </div>
           </a>

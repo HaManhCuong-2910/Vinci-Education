@@ -12,25 +12,49 @@
           <p
             class="lg:text-2xl text-base font-medium text-black-400 lg:text-end text-center"
           >
-            300+ đánh giá
+            1500+ đánh giá
           </p>
           <p class="mt-1 text-black-300 lg:text-end text-center">
             từ học viên và phụ huynh
           </p>
         </div>
       </div>
-      <div class="grid lg:grid-cols-3 grid-cols-1 gap-6 mt-10">
-        <evaluate-card
-          v-for="(item, index) in dataEvaluate"
-          :key="index"
-          :data="item"
-        />
+      <div class="mt-10">
+        <Swiper
+          :modules="modules"
+          :autoplay="{ delay: 800 }"
+          :spaceBetween="20"
+          :breakpoints="{
+            '640': {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            '768': {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            '1024': {
+              slidesPerView: 2,
+              spaceBetween: 50,
+            },
+          }"
+          :loop="true"
+        >
+          <SwiperSlide v-for="(item, index) in dataEvaluate" :key="index">
+            <evaluate-card :data="item" />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
+import "swiper/css/navigation";
+import { Autoplay, Navigation } from "swiper/modules";
+
+const modules = [Autoplay, Navigation];
+
 const dataEvaluate = ref([
   {
     avatar: "/images/hoc-vien-noi-gi.jpg",

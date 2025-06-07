@@ -66,23 +66,24 @@
 <script setup lang="ts">
 const dataAddressHanoi = ref([
   {
-    label: "Cơ sở 1:",
-    value: "43/290 kim mã ba đình, HN",
-    url: "https://maps.app.goo.gl/3Kj1LK6b4iPiXGXSA",
+    label: "Cơ sở 2:",
+    value: "43A/290 Phố Kim Mã , Quận Ba Đình , Thành Phố Hà Nội",
+    url: "https://maps.app.goo.gl/JvQ2yPWjVfUsvb2u7",
   },
 ]);
 const dataAddress = ref([
   {
     label: "Cơ sở 1:",
-    value: "121 cô bắc cô giang q1",
-    url: "https://maps.app.goo.gl/chLRWXMegHFxEfm19",
+    value: "76 Trần Bá Giao , Phường 5 , Thành Phố Hồ Chí Minh",
+    url: "https://maps.app.goo.gl/dpMnqc4hR7Yj9A9B6",
   },
 ]);
 const dataAddressContact = ref([
   {
-    label: "Cơ sở 1:",
-    value: "76 trần bá giao ,p5 , hcm",
-    url: "https://maps.app.goo.gl/sazxYg6H5Xy9zEBYA",
+    label: "Cơ sở hợp tác:",
+    value:
+      "The Manor Central Park , Nguyễn Xiển , Quận Hoàng Mai , Thành Phố Hà Nội",
+    url: "https://maps.app.goo.gl/c7gXka3yZiveXsh7A",
   },
 ]);
 const dataContact = ref([

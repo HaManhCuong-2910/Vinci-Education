@@ -1,15 +1,38 @@
 <template>
   <div
-    class="bg-[#FDF6F6] border border-[#EDB3B3] rounded-2xl p-10 conatiner-card lg:h-[400px] h-[473px] flex flex-col overflow-hidden"
+    class="bg-[#FDF6F6] border border-[#EDB3B3] rounded-2xl p-10 conatiner-card lg:h-[400px] h-[1050px] flex flex-col overflow-hidden"
   >
     <div class="max-w-[312px]">
       <p class="text-2xl font-bold text-black-400">
         Tư liệu học tập độc quyền chỉ có tại Global Education
       </p>
       <p class="text-base mt-2 text-black-300">
-        Tất cả sách đều do Global Education tự lên nội dung và thiết kế theo tư
-        duy riêng.
+        Toàn bộ tài liệu học tập tại Global Education đều được tự biên soạn và
+        thiết kế độc quyền, bám sát phương pháp giảng dạy theo tư duy logic –
+        bản chất – cá nhân hóa.
       </p>
+      <ul>
+        <li class="mt-4">
+          ✅ Nội dung biên soạn bởi đội ngũ chuyên môn cao, đứng đầu là thầy
+          Phạm Văn Bình – người sáng lập và phát triển phương pháp học từ mất
+          gốc đến 9+
+        </li>
+        <li class="mt-2">
+          ✅ Thiết kế riêng biệt theo từng giai đoạn học: từ nền tảng – luyện đề
+          – tổng ôn – tăng tốc
+        </li>
+        <li class="mt-2">
+          ✅ Tài liệu cập nhật liên tục theo cấu trúc mới nhất của kỳ thi THPT
+          Quốc gia
+        </li>
+        <li class="mt-2">
+          ✅ Không phát hành công khai – chỉ dành riêng cho học viên Global
+          Education
+        </li>
+        <li class="mt-2">
+          🎯 Tư liệu chất lượng – Chiến lược học tập rõ ràng – Kết quả bứt phá!
+        </li>
+      </ul>
     </div>
     <div class="relative custom-flex">
       <div class="book-1 book">

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#F6F8FE] border border-[#A7BFF1] rounded-2xl lg:p-10 conatiner-card lg:h-[440px] lg:col-span-2 lg:grid lg:grid-cols-3 lg:gap-8 overflow-hidden group"
+    class="bg-[#F6F8FE] border border-[#A7BFF1] rounded-2xl lg:p-10 conatiner-card lg:h-[580px] lg:col-span-2 lg:grid lg:grid-cols-3 lg:gap-8 overflow-hidden group"
   >
     <div class="p-4">
       <p class="text-2xl font-bold text-black-400">
@@ -87,9 +87,9 @@
           >
             <div>
               <img
-                src="https://asset.dolenglish.vn/cm9qlks4qu42o0711ozfj7hk6"
+                src="/images/nen-tang-cong-nghe.jpg"
                 loading="lazy"
-                class="absolute left-0 bottom-0 w-full h-auto rounded-3xl"
+                class="absolute left-0 bottom-0 w-full h-full rounded-3xl"
               />
             </div>
           </div>
@@ -98,9 +98,9 @@
           >
             <div>
               <img
-                src="/images/cer-le-minh-duc.jpg"
+                src="/images/nen-tang-cong-nghe-1.jpg"
                 loading="lazy"
-                class="absolute left-0 bottom-0 w-full h-auto max-h-full rounded-3xl"
+                class="absolute left-0 bottom-0 w-full h-full max-h-full rounded-3xl"
               />
             </div>
           </div>
@@ -109,9 +109,9 @@
           >
             <div>
               <img
-                src="https://asset.dolenglish.vn/cm9qlks4wu5zg0h0yvgd2pv64"
+                src="/images/nen-tang-cong-nghe.jpg"
                 loading="lazy"
-                class="absolute left-0 bottom-0 w-full h-auto rounded-3xl"
+                class="absolute left-0 bottom-0 w-full h-full rounded-3xl"
               />
             </div>
           </div>
@@ -120,9 +120,9 @@
           >
             <div>
               <img
-                src="https://asset.dolenglish.vn/cm9qlks59u42t07115cqgfwrt"
+                src="/images/nen-tang-cong-nghe-1.jpg"
                 loading="lazy"
-                class="absolute left-0 bottom-0 w-full h-auto rounded-3xl"
+                class="absolute left-0 bottom-0 w-full h-full rounded-3xl"
               />
             </div>
           </div>
@@ -131,9 +131,9 @@
           >
             <div>
               <img
-                src="https://asset.dolenglish.vn/cm9qlks54u5zk0h0ytve77jlm"
+                src="/images/nen-tang-cong-nghe.jpg"
                 loading="lazy"
-                class="absolute left-0 bottom-0 w-full h-auto rounded-3xl"
+                class="absolute left-0 bottom-0 w-full h-full rounded-3xl"
               />
             </div>
           </div>

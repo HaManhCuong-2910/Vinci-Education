@@ -4,15 +4,32 @@
       <h3
         class="lg:text-4xl text-3xl text-center font-bold text-black-400 mt-2"
       >
-        LỚP HỌC TÌNH THƯƠNG dạy học miễn phí cho trẻ em vùng cao của thầy Phạm
-        Văn Bình
+        ❤️ LỚP HỌC TÌNH THƯƠNG – Thắp sáng tri thức nơi vùng cao
       </h3>
-      <p class="text-black-300 mt-4">
-        Lớp học nhỏ giữa núi rừng của thầy Phạm Văn Bình là nơi những ước mơ bé
-        thơ được viết nên bằng tình yêu thương, giữa thiếu thốn trăm bề nhưng
-        chưa từng thiếu một ánh mắt trìu mến hay một bài học tử tế – nơi gieo hy
-        vọng giữa sương mù vùng cao.
-      </p>
+      <p class="mt-4">🌄 Một dự án lớn từ trái tim nhỏ – Ánh Sáng Bản Làng</p>
+      <ul>
+        <li class="mt-4">
+          Ở những nơi còn thiếu thốn về điều kiện học tập, “Lớp học tình thương”
+          không chỉ là một căn phòng nhỏ có bàn ghế, mà là ánh sáng của niềm
+          tin, hy vọng và tri thức được thắp lên mỗi ngày bởi những con người
+          mang trái tim đầy nhiệt huyết.
+        </li>
+        <li class="mt-2">
+          📚 Đây là dự án đặc biệt cùng chương trình “Ánh Sáng Bản Làng”, Do
+          thầy Phạm Văn Bình – người sáng lập Global Education – khởi xướng, Lớp
+          học tình thương là một dự án giáo dục phi lợi nhuận nhằm mang tri thức
+          đến với trẻ em có hoàn cảnh khó khăn tại vùng cao.
+        </li>
+        <li class="mt-2">
+          📚 Dạy học hoàn toàn miễn phí cho các em nhỏ thiếu điều kiện
+        </li>
+        <li class="mt-2">
+          📚 Cung cấp sách vở, dụng cụ học tập, và giáo viên tình nguyện
+        </li>
+        <li class="mt-2">
+          📚 Tạo ra một không gian học tập ấm áp, nhân văn và bền vững
+        </li>
+      </ul>
     </div>
 
     <img

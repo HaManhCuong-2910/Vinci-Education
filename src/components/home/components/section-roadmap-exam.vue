@@ -1,5 +1,5 @@
 <template>
-  <section id="lo-trinh-luyen-thi" class="lg:pb-28 pb-20 pt-16">
+  <section id="lo-trinh-luyen-thi" class="lg:pb-28 pb-20 pt-10">
     <div class="container mx-auto">
       <p
         class="lg:text-lg text-base uppercase text-black-300 relative w-fit mx-auto"

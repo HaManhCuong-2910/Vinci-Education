@@ -1,22 +1,22 @@
 <template>
   <section class="lg:py-28 py-20">
     <div class="container mx-auto">
-      <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 items-center">
+      <div class="grid grid-cols-1 gap-4 items-center">
         <h3
-          class="lg:text-4xl text-3xl lg:text-left text-center font-bold text-black-400 mt-2"
+          class="lg:text-4xl text-3xl text-center font-bold text-black-400 mt-2"
         >
           🌟 Sự kiện quốc tế độc quyền quy tụ hơn 35,000 khán giả – Hội thảo sự
           kiện Global Education nơi Giám đốc Phạm Văn Bình truyền cảm hứng về
           giáo dục tương lai 🌍
         </h3>
         <div>
-          <p class="lg:text-2xl text-base font-medium lg:text-end text-center">
+          <p class="lg:text-2xl text-base font-medium text-center">
             Với sự góp mặt của hơn 35,000 khán giả toàn cầu, sự kiện đẳng cấp
             Global Education đã trở thành một sân khấu lý tưởng để Giám đốc Phạm
             Văn Bình chia sẻ những góc nhìn đột phá về giáo dục trong kỷ nguyên
             số.
           </p>
-          <p class="mt-3 lg:text-end text-center">
+          <p class="mt-3 text-center">
             Bằng tinh thần dẫn dắt đổi mới và tư duy khai phóng, Thầy Bình không
             chỉ đại diện cho tiếng nói Việt Nam mà còn truyền cảm hứng mạnh mẽ
             về cách chúng ta chuẩn bị cho thế hệ trẻ bước vào một thế giới nhiều

@@ -16,14 +16,16 @@
     </client-only>
     <section-event />
     <section-difference-value />
-    <client-only>
-      <section-table-achievement />
-    </client-only>
-    <section-roadmap-exam />
-    <section-platform />
     <section-evaluate />
+    <section-roadmap-exam />
+    <section-3-card />
+    <section-bonus />
+    <section-platform />
     <client-only>
       <section-class />
+    </client-only>
+    <client-only>
+      <section-table-achievement />
     </client-only>
     <section-register />
   </div>
