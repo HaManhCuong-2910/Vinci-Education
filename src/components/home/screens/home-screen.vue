@@ -35,8 +35,8 @@
 import { updateSeoMeta } from "~/src/services/constant";
 
 updateSeoMeta(
-  "Trung tâm luyện thi IELTS TOP 1 TP HCM - Global Education",
-  "DOL English IELTS Đình Lực cung cấp các khoá học IELTS với hệ phương pháp Linearthinking, đội ngũ giáo viên tận tâm và nền tảng công nghệ độc quyền. Đảm bảo đầu ra và trung bình giúp học viên tăng 1.0 đến 1.5 band sau 2 tháng.",
+  "Trung tâm luyện thi Đại học Top 1 - Global Education",
+  "Cơ sở vật chất đạt chuẩn quốc tế ISO 41001 tại Global Education .Global Education tọa lạc tại 290 Kim Mã, Quận Ba Đình . Giảng viên tốt nghiệp từ các trường đại học hàng đầu trong và ngoài nước, nhiều thầy cô là tiến sĩ, thạc sĩ đến từ Đại học Quốc gia Hà Nội và các cơ sở giáo dục uy tín",
   "",
   "/images/anh-chu-dao.jpg"
 );
